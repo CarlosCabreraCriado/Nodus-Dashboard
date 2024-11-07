@@ -1,5 +1,5 @@
 <mat-card
-  class="daxa-card order-summary-card mb-25 border-radius bg-white border-none block"
+  class="daxa-card order-summary-card mb-25 rounded-xl bg-white border-none block"
 >
   <mat-card-header>
     <mat-card-title>
@@ -27,10 +27,10 @@
     </mat-card-subtitle>
   </mat-card-header>
   <mat-card-content>
-    <div class="info d-flex align-items-center justify-content-between">
-      <span class="d-block"> Completed 60% </span>
-      <span class="d-block"> New Order 30% </span>
-      <span class="d-block"> Pending 10% </span>
+    <div class="info flex align-items-center justify-content-between">
+      <span class="block"> Completed 60% </span>
+      <span class="block"> New Order 30% </span>
+      <span class="block"> Pending 10% </span>
     </div>
     <apx-chart
       [series]="chartOptions.series!"

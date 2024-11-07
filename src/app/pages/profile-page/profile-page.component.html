@@ -5,7 +5,7 @@
   <h5 class="mb-0">Profile</h5>
   <ol class="breadcrumb list-unstyled mt-0 mb-0 pl-0">
     <li class="breadcrumb-item position-relative">
-      <a routerLink="/" class="d-inline-block position-relative">
+      <a routerLink="/" class=".inline-block position-relative">
         <i class="ri-home-8-line"></i>
         Dashboard
       </a>
@@ -16,7 +16,7 @@
 
 <!-- Profile -->
 <mat-card
-  class="daxa-card profile-card mb-25 p-0 border-radius bg-white border-none block"
+  class="daxa-card profile-card mb-25 p-0 rounded-xl bg-white border-none block"
   [class.component-dark-theme]="themeService.isDark()"
   [class.rtl-enabled]="themeService.isRTLEnabled()"
 >
@@ -73,8 +73,8 @@
             </mat-menu>
           </div>
           <div class="title">
-            <span class="d-block fw-medium"> Micheal Collins </span>
-            <span class="d-block text-body"> micheal&#64;gmail.com </span>
+            <span class="block fw-medium"> Micheal Collins </span>
+            <span class="block text-body"> micheal&#64;gmail.com </span>
           </div>
         </div>
         <div class="btn-box">
@@ -82,30 +82,30 @@
         </div>
       </div>
       <ul class="nav-links text-center pl-0 mb-0 list-unstyled">
-        <li class="d-inline-block">
+        <li class=".inline-block">
           <a
             routerLink="/profile"
-            class="d-block position-relative"
+            class="block position-relative"
             routerLinkActive="active"
             [routerLinkActiveOptions]="{ exact: true }"
           >
             Profile
           </a>
         </li>
-        <li class="d-inline-block">
+        <li class=".inline-block">
           <a
             routerLink="/profile/teams"
-            class="d-block position-relative"
+            class="block position-relative"
             routerLinkActive="active"
             [routerLinkActiveOptions]="{ exact: true }"
           >
             Team
           </a>
         </li>
-        <li class="d-inline-block">
+        <li class=".inline-block">
           <a
             routerLink="/profile/projects"
-            class="d-block position-relative"
+            class="block position-relative"
             routerLinkActive="active"
             [routerLinkActiveOptions]="{ exact: true }"
           >

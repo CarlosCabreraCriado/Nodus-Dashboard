@@ -1,5 +1,5 @@
 <header
-  class="header-area bg-white border-radius transition"
+  class="header-area bg-white rounded-xl transition"
   [ngClass]="{ active: isSidebarToggled, sticky: isSticky }"
   [class.component-dark-theme]="themeService.isDark()"
   [class.right-sidebar]="themeService.isRightSidebar()"
@@ -9,7 +9,7 @@
   [class.rtl-enabled]="themeService.isRTLEnabled()"
 >
   <div class="d-md-flex align-items-center justify-content-between">
-    <div class="header-left-side d-flex align-items-center">
+    <div class="header-left-side flex align-items-center">
       <div
         class="burger-menu cursor-pointer transition d-xl-none"
         [ngClass]="{ active: isSidebarToggled }"
@@ -29,7 +29,7 @@
       </form>
     </div>
     <ul
-      class="header-right-side d-flex align-items-center mt-0 mb-0 pl-0 list-unstyled"
+      class="header-right-side flex align-items-center mt-0 mb-0 pl-0 list-unstyled"
     >
       <li>
         <button
@@ -114,9 +114,7 @@
               themeService.isDark() || themeService.isHeaderDark()
             "
           >
-            <div
-              class="title d-flex align-items-center justify-content-between"
-            >
+            <div class="title flex align-items-center justify-content-between">
               <span class="fw-medium">
                 Messages
                 <span class="text-body fw-normal">(05)</span>
@@ -143,10 +141,10 @@
                 </span>
                 <a
                   routerLink="/chat"
-                  class="d-block link-btn position-absolute"
+                  class="block link-btn position-absolute"
                 ></a>
                 <span
-                  class="unread d-inline-block rounded-circle bg-daxa position-absolute"
+                  class="unread .inline-block rounded-circle bg-daxa position-absolute"
                 ></span>
               </li>
               <li class="position-relative">
@@ -166,7 +164,7 @@
                 </span>
                 <a
                   routerLink="/chat"
-                  class="d-block link-btn position-absolute"
+                  class="block link-btn position-absolute"
                 ></a>
               </li>
               <li class="position-relative">
@@ -186,14 +184,14 @@
                 </span>
                 <a
                   routerLink="/chat"
-                  class="d-block link-btn position-absolute"
+                  class="block link-btn position-absolute"
                 ></a>
               </li>
             </ul>
             <div class="menu-footer text-center">
               <a
                 routerLink="/chat"
-                class="link-btn text-daxa d-inline-block fw-medium"
+                class="link-btn text-daxa .inline-block fw-medium"
               >
                 View All Messages
               </a>
@@ -220,9 +218,7 @@
               themeService.isDark() || themeService.isHeaderDark()
             "
           >
-            <div
-              class="title d-flex align-items-center justify-content-between"
-            >
+            <div class="title flex align-items-center justify-content-between">
               <span class="fw-medium">
                 Notifications
                 <span class="text-body fw-normal">(03)</span>
@@ -245,10 +241,10 @@
                 <span class="time block text-body"> 2 hrs ago </span>
                 <a
                   routerLink="/notifications"
-                  class="d-block link-btn position-absolute"
+                  class="block link-btn position-absolute"
                 ></a>
                 <span
-                  class="unread d-inline-block rounded-circle bg-daxa position-absolute"
+                  class="unread .inline-block rounded-circle bg-daxa position-absolute"
                 ></span>
               </li>
               <li class="position-relative">
@@ -263,10 +259,10 @@
                 <span class="time block text-body"> 3 hrs ago </span>
                 <a
                   routerLink="/notifications"
-                  class="d-block link-btn position-absolute"
+                  class="block link-btn position-absolute"
                 ></a>
                 <span
-                  class="unread d-inline-block rounded-circle bg-daxa position-absolute"
+                  class="unread .inline-block rounded-circle bg-daxa position-absolute"
                 ></span>
               </li>
               <li class="position-relative">
@@ -282,14 +278,14 @@
                 <span class="time block text-body"> 1 day ago </span>
                 <a
                   routerLink="/notifications"
-                  class="d-block link-btn position-absolute"
+                  class="block link-btn position-absolute"
                 ></a>
               </li>
             </ul>
             <div class="menu-footer text-center">
               <a
                 routerLink="/notifications"
-                class="link-btn text-daxa d-inline-block fw-medium"
+                class="link-btn text-daxa .inline-block fw-medium"
               >
                 See All Notifications
               </a>
@@ -305,7 +301,7 @@
         >
           <img src="images/admin.png" alt="profile-image" />
           <span
-            class="status d-inline-block rounded-circle position-absolute"
+            class="status .inline-block rounded-circle position-absolute"
           ></span>
         </button>
         <mat-menu
@@ -318,10 +314,10 @@
               themeService.isDark() || themeService.isHeaderDark()
             "
           >
-            <div class="menu-header d-flex align-items-center">
+            <div class="menu-header flex align-items-center">
               <img src="images/admin.png" alt="profile-image" />
               <div class="title">
-                <a routerLink="/my-profile" class="d-inline-block fw-medium">
+                <a routerLink="/my-profile" class=".inline-block fw-medium">
                   Mateo Luca
                 </a>
                 <span class="designation block text-body"> Admin </span>

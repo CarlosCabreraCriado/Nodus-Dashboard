@@ -5,7 +5,7 @@
   <h5 class="mb-0">Instructors</h5>
   <ol class="breadcrumb list-unstyled mt-0 mb-0 pl-0">
     <li class="breadcrumb-item position-relative">
-      <a routerLink="/" class="d-inline-block position-relative">
+      <a routerLink="/" class=".inline-block position-relative">
         <i class="ri-home-8-line"></i>
         Dashboard
       </a>
@@ -17,7 +17,7 @@
 
 <!-- Instructors -->
 <mat-card
-  class="daxa-card instructors-card mb-25 border-radius bg-white border-none block"
+  class="daxa-card instructors-card mb-25 rounded-xl bg-white border-none block"
   [class.rtl-enabled]="themeService.isRTLEnabled()"
 >
   <mat-card-header>
@@ -92,11 +92,11 @@
           <ng-container matColumnDef="instructor">
             <th mat-header-cell *matHeaderCellDef>Instructor</th>
             <td mat-cell *matCellDef="let element" class="text-black">
-              <div class="info d-flex align-items-center">
+              <div class="info flex align-items-center">
                 <div class="image">
                   <img [src]="element.instructor.img" alt="instructor-image" />
                 </div>
-                <span class="d-block fw-medium">
+                <span class="block fw-medium">
                   {{ element.instructor.name }}
                 </span>
               </div>
@@ -140,13 +140,13 @@
             <th mat-header-cell *matHeaderCellDef>Status</th>
             <td mat-cell *matCellDef="let element">
               <span
-                class="daxa-badge active d-inline-block"
+                class="daxa-badge active .inline-block"
                 *ngIf="element.status.active"
               >
                 {{ element.status.active }}
               </span>
               <span
-                class="daxa-badge deactive d-inline-block"
+                class="daxa-badge deactive .inline-block"
                 *ngIf="element.status.deactive"
               >
                 {{ element.status.deactive }}

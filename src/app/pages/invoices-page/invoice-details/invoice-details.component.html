@@ -5,7 +5,7 @@
   <h5 class="mb-0">Invoice Details</h5>
   <ol class="breadcrumb list-unstyled mt-0 mb-0 pl-0">
     <li class="breadcrumb-item position-relative">
-      <a routerLink="/" class="d-inline-block position-relative">
+      <a routerLink="/" class=".inline-block position-relative">
         <i class="ri-home-8-line"></i>
         Dashboard
       </a>
@@ -18,7 +18,7 @@
 
 <!-- Invoice Details -->
 <mat-card
-  class="daxa-card invoice-details-card mb-25 border-radius bg-white border-none block"
+  class="daxa-card invoice-details-card mb-25 rounded-xl bg-white border-none block"
   [class.component-dark-theme]="themeService.isDark()"
   [class.rtl-enabled]="themeService.isRTLEnabled()"
 >
@@ -35,10 +35,10 @@
         <span class="title block text-body">
           Invoice Number: <span class="text-black">#1346</span>
         </span>
-        <span class="d-block text-body"> Invoice To: </span>
-        <span class="d-block"> Shannon Nelson </span>
-        <span class="d-block"> 4545 Seth Street Ballinger, TX 78965 </span>
-        <span class="d-block"> +1 444 556 8899 </span>
+        <span class="block text-body"> Invoice To: </span>
+        <span class="block"> Shannon Nelson </span>
+        <span class="block"> 4545 Seth Street Ballinger, TX 78965 </span>
+        <span class="block"> +1 444 556 8899 </span>
       </div>
       <div>
         <img src="images/qr-code.png" alt="qr-code-image" />
@@ -47,10 +47,10 @@
         <span class="title block text-body">
           Date: <span class="text-black">Dec 01, 2024</span>
         </span>
-        <span class="d-block text-body"> Pay To: </span>
-        <span class="d-block"> Mercedes Foreman </span>
-        <span class="d-block"> 458 Friendship Lane Walnut Creek, CA 5828 </span>
-        <span class="d-block"> +1 444 888 0055 </span>
+        <span class="block text-body"> Pay To: </span>
+        <span class="block"> Mercedes Foreman </span>
+        <span class="block"> 458 Friendship Lane Walnut Creek, CA 5828 </span>
+        <span class="block"> +1 444 888 0055 </span>
       </div>
     </div>
     <div class="recent-orders-table table-responsive">

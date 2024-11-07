@@ -5,7 +5,7 @@
   <h5 class="mb-0">Compose</h5>
   <ol class="breadcrumb list-unstyled mt-0 mb-0 pl-0">
     <li class="breadcrumb-item position-relative">
-      <a routerLink="/" class="d-inline-block position-relative">
+      <a routerLink="/" class=".inline-block position-relative">
         <i class="ri-home-8-line"></i>
         Dashboard
       </a>
@@ -23,7 +23,7 @@
   </div>
   <div class="col-lg-9 col-md-12">
     <mat-card
-      class="daxa-card email-compose-card mb-25 border-radius bg-white border-none block"
+      class="daxa-card email-compose-card mb-25 rounded-xl bg-white border-none block"
       [class.rtl-enabled]="themeService.isRTLEnabled()"
     >
       <mat-card-header>
@@ -31,7 +31,7 @@
           <h5 class="mb-0">New Message</h5>
         </mat-card-title>
         <mat-card-subtitle>
-          <div class="info-buttons-list d-flex align-items-center">
+          <div class="info-buttons-list flex align-items-center">
             <button mat-button class="text-body">
               <i class="material-symbols-outlined"> refresh </i>
             </button>
@@ -143,9 +143,9 @@
               </div>
             </div>
           </div>
-          <div class="btn-box d-flex align-items-center">
+          <div class="btn-box flex align-items-center">
             <button mat-button class="btn">Send</button>
-            <div class="buttons-list d-flex align-items-center">
+            <div class="buttons-list flex align-items-center">
               <button mat-button class="text-body">
                 <i class="material-symbols-outlined"> sentiment_satisfied </i>
               </button>

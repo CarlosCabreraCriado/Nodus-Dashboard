@@ -5,7 +5,7 @@
   <h5 class="mb-0">Clipboard</h5>
   <ol class="breadcrumb list-unstyled mt-0 mb-0 pl-0">
     <li class="breadcrumb-item position-relative">
-      <a routerLink="/" class="d-inline-block position-relative">
+      <a routerLink="/" class=".inline-block position-relative">
         <i class="ri-home-8-line"></i>
         Dashboard
       </a>
@@ -17,7 +17,7 @@
 
 <!-- Clipboard -->
 <mat-card
-  class="daxa-card mb-25 border-radius bg-white border-none block"
+  class="daxa-card mb-25 rounded-xl bg-white border-none block"
   [class.component-dark-theme]="themeService.isDark()"
 >
   <mat-card-content>
@@ -26,7 +26,7 @@
     </label>
     <textarea
       id="clipboard-example-textarea"
-      class="d-block w-100"
+      class="block w-100"
       cols="30"
       rows="10"
       [(ngModel)]="value"

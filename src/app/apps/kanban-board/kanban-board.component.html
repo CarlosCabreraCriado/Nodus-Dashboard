@@ -5,7 +5,7 @@
   <h5 class="mb-0">Kanban Board</h5>
   <ol class="breadcrumb list-unstyled mt-0 mb-0 pl-0">
     <li class="breadcrumb-item position-relative">
-      <a routerLink="/" class="d-inline-block position-relative">
+      <a routerLink="/" class=".inline-block position-relative">
         <i class="ri-home-8-line"></i>
         Dashboard
       </a>
@@ -24,14 +24,12 @@
 >
   <div class="col-sm-6 col-lg-4 col-xxxl-3">
     <mat-card
-      class="daxa-card kanban-board-card mb-25 border-radius bg-gradient border-none block"
+      class="daxa-card kanban-board-card mb-25 rounded-xl bg-gradient border-none block"
     >
       <mat-card-header>
         <mat-card-title>
           <h5 class="mt-0 text-white">To Do (04)</h5>
-          <span class="d-block text-white">
-            This month add 04 new projects
-          </span>
+          <span class="block text-white"> This month add 04 new projects </span>
         </mat-card-title>
         <mat-card-subtitle>
           <button
@@ -61,27 +59,25 @@
     >
       @for (item of toDo; track item) {
         <mat-card
-          class="daxa-card kanban-board-card mb-25 border-radius bg-white border-none block"
+          class="daxa-card kanban-board-card mb-25 rounded-xl bg-white border-none block"
           cdkDrag
         >
           <mat-card-content>
-            <div class="head d-flex align-items-center justify-content-between">
-              <span class="d-block fw-medium">
+            <div class="head flex align-items-center justify-content-between">
+              <span class="block fw-medium">
                 {{ item.title }}
               </span>
-              <span class="d-block text-daxa">
+              <span class="block text-daxa">
                 {{ item.daysLeft }}
               </span>
             </div>
             <p>
               {{ item.description }}
             </p>
-            <span class="daxa-badge text-success d-inline-block">
+            <span class="daxa-badge text-success .inline-block">
               {{ item.category }}
             </span>
-            <div
-              class="footer d-flex align-items-center justify-content-between"
-            >
+            <div class="footer flex align-items-center justify-content-between">
               <span class="date text-body block position-relative">
                 <i class="material-symbols-outlined"> schedule </i>
                 {{ item.createdDate }}
@@ -106,12 +102,12 @@
   </div>
   <div class="col-sm-6 col-lg-4 col-xxxl-3">
     <mat-card
-      class="daxa-card kanban-board-card mb-25 border-radius bg-gradient border-none block"
+      class="daxa-card kanban-board-card mb-25 rounded-xl bg-gradient border-none block"
     >
       <mat-card-header>
         <mat-card-title>
           <h5 class="mt-0 text-white">In Progress (07)</h5>
-          <span class="d-block text-white">
+          <span class="block text-white">
             This month progress 07 new projects
           </span>
         </mat-card-title>
@@ -143,27 +139,25 @@
     >
       @for (item of inProgress; track item) {
         <mat-card
-          class="daxa-card kanban-board-card mb-25 border-radius bg-white border-none block"
+          class="daxa-card kanban-board-card mb-25 rounded-xl bg-white border-none block"
           cdkDrag
         >
           <mat-card-content>
-            <div class="head d-flex align-items-center justify-content-between">
-              <span class="d-block fw-medium">
+            <div class="head flex align-items-center justify-content-between">
+              <span class="block fw-medium">
                 {{ item.title }}
               </span>
-              <span class="d-block text-warning">
+              <span class="block text-warning">
                 {{ item.daysLeft }}
               </span>
             </div>
             <p>
               {{ item.description }}
             </p>
-            <span class="daxa-badge text-success d-inline-block">
+            <span class="daxa-badge text-success .inline-block">
               {{ item.category }}
             </span>
-            <div
-              class="footer d-flex align-items-center justify-content-between"
-            >
+            <div class="footer flex align-items-center justify-content-between">
               <span class="date text-body block position-relative">
                 <i class="material-symbols-outlined"> schedule </i>
                 {{ item.createdDate }}
@@ -188,14 +182,12 @@
   </div>
   <div class="col-sm-6 col-lg-4 col-xxxl-3">
     <mat-card
-      class="daxa-card kanban-board-card mb-25 border-radius bg-gradient border-none block"
+      class="daxa-card kanban-board-card mb-25 rounded-xl bg-gradient border-none block"
     >
       <mat-card-header>
         <mat-card-title>
           <h5 class="mt-0 text-white">To Review (06)</h5>
-          <span class="d-block text-white">
-            This month review 06 projects
-          </span>
+          <span class="block text-white"> This month review 06 projects </span>
         </mat-card-title>
         <mat-card-subtitle>
           <button
@@ -225,27 +217,25 @@
     >
       @for (item of toReview; track item) {
         <mat-card
-          class="daxa-card kanban-board-card mb-25 border-radius bg-white border-none block"
+          class="daxa-card kanban-board-card mb-25 rounded-xl bg-white border-none block"
           cdkDrag
         >
           <mat-card-content>
-            <div class="head d-flex align-items-center justify-content-between">
-              <span class="d-block fw-medium">
+            <div class="head flex align-items-center justify-content-between">
+              <span class="block fw-medium">
                 {{ item.title }}
               </span>
-              <span class="d-block text-danger">
+              <span class="block text-danger">
                 {{ item.daysLeft }}
               </span>
             </div>
             <p>
               {{ item.description }}
             </p>
-            <span class="daxa-badge text-success d-inline-block">
+            <span class="daxa-badge text-success .inline-block">
               {{ item.category }}
             </span>
-            <div
-              class="footer d-flex align-items-center justify-content-between"
-            >
+            <div class="footer flex align-items-center justify-content-between">
               <span class="date text-body block position-relative">
                 <i class="material-symbols-outlined"> schedule </i>
                 {{ item.createdDate }}
@@ -270,12 +260,12 @@
   </div>
   <div class="col-sm-6 col-lg-4 col-xxxl-3">
     <mat-card
-      class="daxa-card kanban-board-card mb-25 border-radius bg-gradient border-none block"
+      class="daxa-card kanban-board-card mb-25 rounded-xl bg-gradient border-none block"
     >
       <mat-card-header>
         <mat-card-title>
           <h5 class="mt-0 text-white">To Completed (05)</h5>
-          <span class="d-block text-white">
+          <span class="block text-white">
             This month completed 05 projects
           </span>
         </mat-card-title>
@@ -307,27 +297,25 @@
     >
       @for (item of toCompleted; track item) {
         <mat-card
-          class="daxa-card kanban-board-card mb-25 border-radius bg-white border-none block"
+          class="daxa-card kanban-board-card mb-25 rounded-xl bg-white border-none block"
           cdkDrag
         >
           <mat-card-content>
-            <div class="head d-flex align-items-center justify-content-between">
-              <span class="d-block fw-medium">
+            <div class="head flex align-items-center justify-content-between">
+              <span class="block fw-medium">
                 {{ item.title }}
               </span>
-              <span class="d-block text-success">
+              <span class="block text-success">
                 {{ item.daysLeft }}
               </span>
             </div>
             <p>
               {{ item.description }}
             </p>
-            <span class="daxa-badge text-success d-inline-block">
+            <span class="daxa-badge text-success .inline-block">
               {{ item.category }}
             </span>
-            <div
-              class="footer d-flex align-items-center justify-content-between"
-            >
+            <div class="footer flex align-items-center justify-content-between">
               <span class="date text-body block position-relative">
                 <i class="material-symbols-outlined"> schedule </i>
                 {{ item.createdDate }}
@@ -359,7 +347,7 @@
   [class.rtl-enabled]="themeService.isRTLEnabled()"
 >
   <div class="popup-dialog">
-    <mat-card class="daxa-card mb-25 border-radius bg-white border-none block">
+    <mat-card class="daxa-card mb-25 rounded-xl bg-white border-none block">
       <mat-card-header>
         <mat-card-title>
           <h5 class="mb-0">Add New Task</h5>

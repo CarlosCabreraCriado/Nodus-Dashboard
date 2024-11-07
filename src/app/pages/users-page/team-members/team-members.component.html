@@ -5,7 +5,7 @@
   <h5 class="mb-0">Team Members</h5>
   <ol class="breadcrumb list-unstyled mt-0 mb-0 pl-0">
     <li class="breadcrumb-item position-relative">
-      <a routerLink="/" class="d-inline-block position-relative">
+      <a routerLink="/" class=".inline-block position-relative">
         <i class="ri-home-8-line"></i>
         Dashboard
       </a>
@@ -17,7 +17,7 @@
 
 <!-- Team Members -->
 <mat-card
-  class="daxa-card team-member-card mb-25 border-radius bg-white border-none block"
+  class="daxa-card team-member-card mb-25 rounded-xl bg-white border-none block"
   [class.rtl-enabled]="themeService.isRTLEnabled()"
 >
   <mat-card-header>
@@ -45,7 +45,7 @@
     *ngFor="let content of teamMemberCard"
   >
     <mat-card
-      class="daxa-card team-member-card mb-25 border-radius bg-white border-none block"
+      class="daxa-card team-member-card mb-25 rounded-xl bg-white border-none block"
       [class.rtl-enabled]="themeService.isRTLEnabled()"
     >
       <mat-card-header>
@@ -79,7 +79,7 @@
           </div>
           <h5 class="mb-0">
             {{ content.memberName }}
-            <span class="d-block text-body fw-normal">
+            <span class="block text-body fw-normal">
               {{ content.designation }}
             </span>
           </h5>
@@ -119,21 +119,21 @@
 >
   <p class="mb-0">Showing 1 to 12 of 80 entries</p>
   <ol class="pagination list-unstyled mt-0 mb-0 pl-0">
-    <li class="pagination-item d-inline-block">
+    <li class="pagination-item .inline-block">
       <a mat-button routerLink="/users">
         <i class="material-symbols-outlined"> west </i>
       </a>
     </li>
-    <li class="pagination-item d-inline-block">
+    <li class="pagination-item .inline-block">
       <a mat-button routerLink="/users" class="active"> 1 </a>
     </li>
-    <li class="pagination-item d-inline-block">
+    <li class="pagination-item .inline-block">
       <a mat-button routerLink="/users"> 2 </a>
     </li>
-    <li class="pagination-item d-inline-block">
+    <li class="pagination-item .inline-block">
       <a mat-button routerLink="/users"> 3 </a>
     </li>
-    <li class="pagination-item d-inline-block">
+    <li class="pagination-item .inline-block">
       <a mat-button routerLink="/users">
         <i class="material-symbols-outlined"> east </i>
       </a>

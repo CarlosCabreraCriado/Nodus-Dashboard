@@ -1,5 +1,5 @@
 <mat-card
-  class="daxa-card sidebar-card mb-25 border-radius bg-white border-none block"
+  class="daxa-card sidebar-card mb-25 rounded-xl bg-white border-none block"
   [class.component-dark-theme]="themeService.isDark()"
   [class.rtl-enabled]="themeService.isRTLEnabled()"
 >
@@ -21,19 +21,19 @@
       <li>
         <a
           routerLink="/file-manager"
-          class="d-flex align-items-center justify-content-between position-relative"
+          class="flex align-items-center justify-content-between position-relative"
           routerLinkActive="active"
           [routerLinkActiveOptions]="{ exact: true }"
         >
           <i class="material-symbols-outlined"> drive_eta </i>
           My Drive
-          <span class="d-block text-body"> 6 </span>
+          <span class="block text-body"> 6 </span>
         </a>
         <ul class="list-unstyled">
           <li>
             <a
               routerLink="/file-manager/assets"
-              class="d-inline-block position-relative"
+              class=".inline-block position-relative"
               routerLinkActive="active"
               [routerLinkActiveOptions]="{ exact: true }"
             >
@@ -43,7 +43,7 @@
           <li>
             <a
               routerLink="/file-manager/projects"
-              class="d-inline-block position-relative"
+              class=".inline-block position-relative"
               routerLinkActive="active"
               [routerLinkActiveOptions]="{ exact: true }"
             >
@@ -53,7 +53,7 @@
           <li>
             <a
               routerLink="/file-manager/personal"
-              class="d-inline-block position-relative"
+              class=".inline-block position-relative"
               routerLinkActive="active"
               [routerLinkActiveOptions]="{ exact: true }"
             >
@@ -63,7 +63,7 @@
           <li>
             <a
               routerLink="/file-manager/applications"
-              class="d-inline-block position-relative"
+              class=".inline-block position-relative"
               routerLinkActive="active"
               [routerLinkActiveOptions]="{ exact: true }"
             >
@@ -75,7 +75,7 @@
       <li>
         <a
           routerLink="/file-manager/documents"
-          class="d-flex align-items-center justify-content-between position-relative"
+          class="flex align-items-center justify-content-between position-relative"
           routerLinkActive="active"
           [routerLinkActiveOptions]="{ exact: true }"
         >
@@ -86,7 +86,7 @@
       <li>
         <a
           routerLink="/file-manager/media"
-          class="d-flex align-items-center justify-content-between position-relative"
+          class="flex align-items-center justify-content-between position-relative"
           routerLinkActive="active"
           [routerLinkActiveOptions]="{ exact: true }"
         >
@@ -97,7 +97,7 @@
       <li>
         <a
           href="javascript:void(0);"
-          class="d-flex align-items-center justify-content-between position-relative"
+          class="flex align-items-center justify-content-between position-relative"
         >
           <i class="material-symbols-outlined"> schedule </i>
           Recents
@@ -106,7 +106,7 @@
       <li>
         <a
           href="javascript:void(0);"
-          class="d-flex align-items-center justify-content-between position-relative"
+          class="flex align-items-center justify-content-between position-relative"
         >
           <i class="material-symbols-outlined"> grade </i>
           Important
@@ -115,28 +115,28 @@
       <li>
         <a
           href="javascript:void(0);"
-          class="d-flex align-items-center justify-content-between position-relative"
+          class="flex align-items-center justify-content-between position-relative"
         >
           <i class="material-symbols-outlined"> report_gmailerrorred </i>
           Spam
-          <span class="d-block text-body"> 10 </span>
+          <span class="block text-body"> 10 </span>
         </a>
       </li>
       <li>
         <a
           href="javascript:void(0);"
-          class="d-flex align-items-center justify-content-between position-relative"
+          class="flex align-items-center justify-content-between position-relative"
         >
           <i class="material-symbols-outlined"> delete </i>
           Trash
-          <span class="d-block text-body"> 15 </span>
+          <span class="block text-body"> 15 </span>
         </a>
       </li>
     </ul>
     <div class="storage-status">
       <h5>Storage Status</h5>
       <mat-progress-bar mode="determinate" value="32"></mat-progress-bar>
-      <span class="d-block text-body"> % 32 GB used of 128 GB </span>
+      <span class="block text-body"> % 32 GB used of 128 GB </span>
     </div>
   </mat-card-content>
 </mat-card>

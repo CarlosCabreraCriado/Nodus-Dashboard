@@ -5,7 +5,7 @@
   <h5 class="mb-0">Color Picker</h5>
   <ol class="breadcrumb list-unstyled mt-0 mb-0 pl-0">
     <li class="breadcrumb-item position-relative">
-      <a routerLink="/" class="d-inline-block position-relative">
+      <a routerLink="/" class=".inline-block position-relative">
         <i class="ri-home-8-line"></i>
         Dashboard
       </a>
@@ -18,7 +18,7 @@
 <!-- Color Picker -->
 <div class="row" [class.component-dark-theme]="themeService.isDark()">
   <div class="col-xl-3 col-lg-4 col-sm-6">
-    <mat-card class="daxa-card mb-25 border-radius bg-white border-none block">
+    <mat-card class="daxa-card mb-25 rounded-xl bg-white border-none block">
       <mat-card-header>
         <mat-card-title>
           <h5 class="mb-0">Basic Picker</h5>
@@ -30,12 +30,12 @@
           [style.background]="color"
           [style.border]="color"
         />
-        <span class="d-block text-body"><i>Click in the input field.</i></span>
+        <span class="block text-body"><i>Click in the input field.</i></span>
       </mat-card-content>
     </mat-card>
   </div>
   <div class="col-xl-3 col-lg-4 col-sm-6">
-    <mat-card class="daxa-card mb-25 border-radius bg-white border-none block">
+    <mat-card class="daxa-card mb-25 rounded-xl bg-white border-none block">
       <mat-card-header>
         <mat-card-title>
           <h5 class="mb-0">Grayscale Color Mode</h5>
@@ -47,12 +47,12 @@
           [cpColorMode]="'grayscale'"
           [style.background]="color2"
         />
-        <span class="d-block text-body"><i>Click in the input field.</i></span>
+        <span class="block text-body"><i>Click in the input field.</i></span>
       </mat-card-content>
     </mat-card>
   </div>
   <div class="col-xl-3 col-lg-4 col-sm-6">
-    <mat-card class="daxa-card mb-25 border-radius bg-white border-none block">
+    <mat-card class="daxa-card mb-25 rounded-xl bg-white border-none block">
       <mat-card-header>
         <mat-card-title>
           <h5 class="mb-0">Color Code Input Field</h5>
@@ -64,12 +64,12 @@
           [(colorPicker)]="color3"
           [style.border]="color3"
         />
-        <span class="d-block text-body"><i>Click in the input field.</i></span>
+        <span class="block text-body"><i>Click in the input field.</i></span>
       </mat-card-content>
     </mat-card>
   </div>
   <div class="col-xl-3 col-lg-4 col-sm-6">
-    <mat-card class="daxa-card mb-25 border-radius bg-white border-none block">
+    <mat-card class="daxa-card mb-25 rounded-xl bg-white border-none block">
       <mat-card-header>
         <mat-card-title>
           <h5 class="mb-0">RGB Color Input Field</h5>
@@ -82,12 +82,12 @@
           [(colorPicker)]="color4"
           [style.border]="color4"
         />
-        <span class="d-block text-body"><i>Click in the input field.</i></span>
+        <span class="block text-body"><i>Click in the input field.</i></span>
       </mat-card-content>
     </mat-card>
   </div>
   <div class="col-xl-3 col-lg-4 col-sm-6">
-    <mat-card class="daxa-card mb-25 border-radius bg-white border-none block">
+    <mat-card class="daxa-card mb-25 rounded-xl bg-white border-none block">
       <mat-card-header>
         <mat-card-title>
           <h5 class="mb-0">Changing Dialog Position</h5>
@@ -100,12 +100,12 @@
           [(colorPicker)]="color5"
           [style.border]="color5"
         />
-        <span class="d-block text-body"><i>Click in the input field.</i></span>
+        <span class="block text-body"><i>Click in the input field.</i></span>
       </mat-card-content>
     </mat-card>
   </div>
   <div class="col-xl-3 col-lg-4 col-sm-6">
-    <mat-card class="daxa-card mb-25 border-radius bg-white border-none block">
+    <mat-card class="daxa-card mb-25 rounded-xl bg-white border-none block">
       <mat-card-header>
         <mat-card-title>
           <h5 class="mb-0">Show OK Button</h5>
@@ -118,12 +118,12 @@
           [(colorPicker)]="color7"
           [style.border]="color7"
         />
-        <span class="d-block text-body"><i>Click in the input field.</i></span>
+        <span class="block text-body"><i>Click in the input field.</i></span>
       </mat-card-content>
     </mat-card>
   </div>
   <div class="col-xl-3 col-lg-4 col-sm-6">
-    <mat-card class="daxa-card mb-25 border-radius bg-white border-none block">
+    <mat-card class="daxa-card mb-25 rounded-xl bg-white border-none block">
       <mat-card-header>
         <mat-card-title>
           <h5 class="mb-0">Show Cancel Button</h5>
@@ -136,12 +136,12 @@
           [(colorPicker)]="color8"
           [style.border]="color8"
         />
-        <span class="d-block text-body"><i>Click in the input field.</i></span>
+        <span class="block text-body"><i>Click in the input field.</i></span>
       </mat-card-content>
     </mat-card>
   </div>
   <div class="col-xl-3 col-lg-4 col-sm-6">
-    <mat-card class="daxa-card mb-25 border-radius bg-white border-none block">
+    <mat-card class="daxa-card mb-25 rounded-xl bg-white border-none block">
       <mat-card-header>
         <mat-card-title>
           <h5 class="mb-0">Enable Eye Dropper</h5>
@@ -155,12 +155,12 @@
           [(colorPicker)]="color9"
           [style.border]="color9"
         />
-        <span class="d-block text-body"><i>Click in the input field.</i></span>
+        <span class="block text-body"><i>Click in the input field.</i></span>
       </mat-card-content>
     </mat-card>
   </div>
   <div class="col-xl-3 col-lg-4 col-sm-6">
-    <mat-card class="daxa-card mb-25 border-radius bg-white border-none block">
+    <mat-card class="daxa-card mb-25 rounded-xl bg-white border-none block">
       <mat-card-header>
         <mat-card-title>
           <h5 class="mb-0">With Preset Colors</h5>
@@ -180,12 +180,12 @@
           [(colorPicker)]="color10"
           [style.border]="color10"
         />
-        <span class="d-block text-body"><i>Click in the input field.</i></span>
+        <span class="block text-body"><i>Click in the input field.</i></span>
       </mat-card-content>
     </mat-card>
   </div>
   <div class="col-xl-3 col-lg-4 col-sm-6">
-    <mat-card class="daxa-card mb-25 border-radius bg-white border-none block">
+    <mat-card class="daxa-card mb-25 rounded-xl bg-white border-none block">
       <mat-card-header>
         <mat-card-title>
           <h5 class="mb-0">HTML Element</h5>

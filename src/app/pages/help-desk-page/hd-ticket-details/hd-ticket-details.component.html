@@ -5,7 +5,7 @@
   <h5 class="mb-0">Ticket Details</h5>
   <ol class="breadcrumb list-unstyled mt-0 mb-0 pl-0">
     <li class="breadcrumb-item position-relative">
-      <a routerLink="/" class="d-inline-block position-relative">
+      <a routerLink="/" class=".inline-block position-relative">
         <i class="ri-home-8-line"></i>
         Dashboard
       </a>
@@ -24,7 +24,7 @@
   </div>
   <div class="col-lg-8">
     <mat-card
-      class="daxa-card ticket-details-card mb-25 border-radius bg-white border-none block"
+      class="daxa-card ticket-details-card mb-25 rounded-xl bg-white border-none block"
       [class.component-dark-theme]="themeService.isDark()"
       [class.rtl-enabled]="themeService.isRTLEnabled()"
     >
@@ -56,13 +56,13 @@
         </mat-card-subtitle>
       </mat-card-header>
       <mat-card-content>
-        <div class="chat-header d-flex align-items-center">
+        <div class="chat-header flex align-items-center">
           <div class="image">
             <img src="images/users/user12.jpg" alt="user-image" />
           </div>
           <div class="title">
-            <span class="d-block fw-medium"> Ann Cohen </span>
-            <span class="d-block text-body"> anncohen&#64;example.com </span>
+            <span class="block fw-medium"> Ann Cohen </span>
+            <span class="block text-body"> anncohen&#64;example.com </span>
           </div>
         </div>
         <div class="chat-body">

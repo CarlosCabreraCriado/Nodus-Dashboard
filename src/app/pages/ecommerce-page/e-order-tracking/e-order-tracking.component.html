@@ -5,7 +5,7 @@
   <h5 class="mb-0">Order Tracking</h5>
   <ol class="breadcrumb list-unstyled mt-0 mb-0 pl-0">
     <li class="breadcrumb-item position-relative">
-      <a routerLink="/" class="d-inline-block position-relative">
+      <a routerLink="/" class=".inline-block position-relative">
         <i class="ri-home-8-line"></i>
         Dashboard
       </a>
@@ -20,7 +20,7 @@
 <div class="row">
   <div class="col-lg-8">
     <mat-card
-      class="daxa-card order-tracking-card mb-25 border-radius bg-white border-none block"
+      class="daxa-card order-tracking-card mb-25 rounded-xl bg-white border-none block"
       [class.component-dark-theme]="themeService.isDark()"
     >
       <mat-card-header>
@@ -40,22 +40,22 @@
           <div class="box">
             <div class="rounded-circle text-center fw-medium">01</div>
             <span class="fw-medium block"> Order Placed </span>
-            <span class="d-block text-body"> 22 Mar, 2024 - 11:35AM </span>
+            <span class="block text-body"> 22 Mar, 2024 - 11:35AM </span>
           </div>
           <div class="box">
             <div class="rounded-circle text-center fw-medium">02</div>
             <span class="fw-medium block"> Packed </span>
-            <span class="d-block text-body"> 23 Mar, 2024 - 10:35AM </span>
+            <span class="block text-body"> 23 Mar, 2024 - 10:35AM </span>
           </div>
           <div class="box">
             <div class="rounded-circle text-center fw-medium">03</div>
             <span class="fw-medium block"> Shipped </span>
-            <span class="d-block text-body"> 24 Mar, 2024 - 3:45PM </span>
+            <span class="block text-body"> 24 Mar, 2024 - 3:45PM </span>
           </div>
           <div class="box active">
             <div class="rounded-circle text-center fw-medium">04</div>
             <span class="fw-medium block"> Delivered </span>
-            <span class="d-block text-body"> 25 Mar, 2024 - 2:21PM </span>
+            <span class="block text-body"> 25 Mar, 2024 - 2:21PM </span>
           </div>
         </div>
         <span class="title block fw-medium"> View Details: </span>
@@ -80,7 +80,7 @@
   </div>
   <div class="col-lg-4">
     <mat-card
-      class="daxa-card order-summary-card mb-25 border-radius bg-white border-none block"
+      class="daxa-card order-summary-card mb-25 rounded-xl bg-white border-none block"
       [class.component-dark-theme]="themeService.isDark()"
       [class.rtl-enabled]="themeService.isRTLEnabled()"
     >

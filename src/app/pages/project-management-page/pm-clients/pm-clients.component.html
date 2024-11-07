@@ -5,7 +5,7 @@
   <h5 class="mb-0">Clients</h5>
   <ol class="breadcrumb list-unstyled mt-0 mb-0 pl-0">
     <li class="breadcrumb-item position-relative">
-      <a routerLink="/" class="d-inline-block position-relative">
+      <a routerLink="/" class=".inline-block position-relative">
         <i class="ri-home-8-line"></i>
         Dashboard
       </a>
@@ -24,10 +24,10 @@
   <div class="col-md-6 col-xxl-4 col-xxxl-3" *ngFor="let content of clientCard">
     <div class="client-card">
       <mat-card
-        class="daxa-card client-card mb-25 border-radius bg-white border-none block"
+        class="daxa-card client-card mb-25 rounded-xl bg-white border-none block"
       >
         <mat-card-content>
-          <div class="d-flex align-items-center">
+          <div class="flex align-items-center">
             <div class="icon position-relative text-center rounded-circle">
               <img [src]="content.clientImg" alt="client-image" />
             </div>
@@ -35,7 +35,7 @@
               <h5>
                 {{ content.clientName }}
               </h5>
-              <span class="d-block text-body">
+              <span class="block text-body">
                 {{ content.clientEmail }}
               </span>
             </div>

@@ -5,7 +5,7 @@
   <h5 class="mb-0">Read</h5>
   <ol class="breadcrumb list-unstyled mt-0 mb-0 pl-0">
     <li class="breadcrumb-item position-relative">
-      <a routerLink="/" class="d-inline-block position-relative">
+      <a routerLink="/" class=".inline-block position-relative">
         <i class="ri-home-8-line"></i>
         Dashboard
       </a>
@@ -23,7 +23,7 @@
   </div>
   <div class="col-lg-9 col-md-12">
     <mat-card
-      class="daxa-card email-read-card mb-25 border-radius bg-white border-none block"
+      class="daxa-card email-read-card mb-25 rounded-xl bg-white border-none block"
       [class.component-dark-theme]="themeService.isDark()"
       [class.rtl-enabled]="themeService.isRTLEnabled()"
     >
@@ -34,7 +34,7 @@
           </h5>
         </mat-card-title>
         <mat-card-subtitle>
-          <div class="info-buttons-list d-flex align-items-center">
+          <div class="info-buttons-list flex align-items-center">
             <button mat-button>
               <i class="material-symbols-outlined"> refresh </i>
             </button>
@@ -70,7 +70,7 @@
       </mat-card-header>
       <mat-card-content>
         <div class="info d-md-flex align-items-center justify-content-between">
-          <div class="user d-flex align-items-center">
+          <div class="user flex align-items-center">
             <div class="img">
               <img
                 src="images/users/user1.jpg"
@@ -79,11 +79,11 @@
               />
             </div>
             <div class="title">
-              <span class="d-block fw-medium"> Micheal Collins </span>
-              <span class="d-block text-body"> From: daxa&#64;gmail.com </span>
+              <span class="block fw-medium"> Micheal Collins </span>
+              <span class="block text-body"> From: daxa&#64;gmail.com </span>
             </div>
           </div>
-          <span class="d-block text-body"> 20 Nov, 2024 </span>
+          <span class="block text-body"> 20 Nov, 2024 </span>
         </div>
         <div class="content">
           <span class="title block fw-medium"> Hello Micheal Collins </span>

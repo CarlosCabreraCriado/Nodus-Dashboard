@@ -1,5 +1,5 @@
 <mat-card
-  class="daxa-card courses-categories-card mb-25 border-radius bg-white border-none block"
+  class="daxa-card courses-categories-card mb-25 rounded-xl bg-white border-none block"
   [class.component-dark-theme]="themeService.isDark()"
   [class.rtl-enabled]="themeService.isRTLEnabled()"
 >
@@ -35,15 +35,15 @@
           <!-- Course Column -->
           <ng-container matColumnDef="course">
             <td mat-cell *matCellDef="let element">
-              <div class="course-info d-flex align-items-center">
+              <div class="course-info flex align-items-center">
                 <div class="image">
                   <img [src]="element.course.img" alt="course-image" />
                 </div>
                 <div class="info">
-                  <a routerLink="/lms-page" class="d-inline-block">
+                  <a routerLink="/lms-page" class=".inline-block">
                     {{ element.course.name }}
                   </a>
-                  <span class="d-block text-body">
+                  <span class="block text-body">
                     {{ element.course.number }}
                   </span>
                 </div>

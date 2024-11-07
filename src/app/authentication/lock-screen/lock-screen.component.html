@@ -2,7 +2,7 @@
   <div class="d-table">
     <div class="d-table-cell">
       <div
-        class="daxa-form ml-auto mr-auto border-radius bg-white"
+        class="daxa-form ml-auto mr-auto rounded-xl bg-white"
         [class.card-borderd-theme]="themeService.isCardBorder()"
         [class.component-dark-theme]="themeService.isDark()"
       >
@@ -18,7 +18,7 @@
             class="rounded-circle"
             alt="admin-image"
           />
-          <span class="d-block fw-medium"> Mateo Luca </span>
+          <span class="block fw-medium"> Mateo Luca </span>
         </div>
         <form [formGroup]="authForm" (ngSubmit)="onSubmit()">
           <div class="form-group">
