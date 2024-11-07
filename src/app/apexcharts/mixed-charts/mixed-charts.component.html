@@ -1,48 +1,34 @@
 <!-- Breadcrumb -->
-<div class="breadcrumb-card mb-25 d-md-flex align-items-center justify-content-between">
-    <h5 class="mb-0">
-        Mixed Charts
-    </h5>
-    <ol class="breadcrumb list-unstyled mt-0 mb-0 pl-0">
-        <li class="breadcrumb-item position-relative">
-            <a routerLink="/" class="d-inline-block position-relative">
-                <i class="ri-home-8-line"></i>
-                Dashboard
-            </a>
-        </li>
-        <li class="breadcrumb-item position-relative">
-            Apexcharts
-        </li>
-        <li class="breadcrumb-item position-relative">
-            Mixed Charts
-        </li>
-    </ol>
+<div class="breadcrumb-card mb-25 flex items-center justify-between">
+  <h5 class="my-0">Mixed Charts</h5>
+  <ol class="breadcrumb list-none my-0 px-0">
+    <li class="breadcrumb-item relative">
+      <a routerLink="/" class="d-inline-block relative">
+        <i class="ri-home-8-line"></i>
+        Dashboard
+      </a>
+    </li>
+    <li class="breadcrumb-item relative">Apexcharts</li>
+    <li class="breadcrumb-item relative">Mixed Charts</li>
+  </ol>
 </div>
 
 <!-- Mixed Charts -->
 <div class="row">
-    <div class="col-lg-6">
-
-        <!-- Line & Column Chart -->
-        <app-line-column-chart />
-
-    </div>
-    <div class="col-lg-6">
-
-        <!-- Multiple Y-Axis Chart -->
-        <app-multiple-yaxis-chart />
-
-    </div>
-    <div class="col-lg-6">
-
-        <!-- Line & Area Chart -->
-        <app-line-area-chart />
-
-    </div>
-    <div class="col-lg-6">
-
-        <!-- Line, Column & Area Chart -->
-        <app-line-column-area-chart />
-
-    </div>
+  <div class="lg:w-1/2 flex-grow-0 flex-shrink-0">
+    <!-- Line & Column Chart -->
+    <app-line-column-chart />
+  </div>
+  <div class="lg:w-1/2 flex-grow-0 flex-shrink-0">
+    <!-- Multiple Y-Axis Chart -->
+    <app-multiple-yaxis-chart />
+  </div>
+  <div class="lg:w-1/2 flex-grow-0 flex-shrink-0">
+    <!-- Line & Area Chart -->
+    <app-line-area-chart />
+  </div>
+  <div class="lg:w-1/2 flex-grow-0 flex-shrink-0">
+    <!-- Line, Column & Area Chart -->
+    <app-line-column-area-chart />
+  </div>
 </div>
