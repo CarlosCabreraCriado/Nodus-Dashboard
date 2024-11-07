@@ -17,7 +17,7 @@
 
 <!-- Team Members -->
 <mat-card
-  class="daxa-card team-member-card mb-25 border-radius bg-white border-none d-block"
+  class="daxa-card team-member-card mb-25 border-radius bg-white border-none block"
   [class.rtl-enabled]="themeService.isRTLEnabled()"
 >
   <mat-card-header>
@@ -31,7 +31,7 @@
         <i class="material-symbols-outlined"> search </i>
         <input
           type="text"
-          class="input-search d-block w-100 border-none outline-0"
+          class="input-search block w-100 border-none outline-0"
           placeholder="Search member..."
         />
       </form>
@@ -45,7 +45,7 @@
     *ngFor="let content of teamMemberCard"
   >
     <mat-card
-      class="daxa-card team-member-card mb-25 border-radius bg-white border-none d-block"
+      class="daxa-card team-member-card mb-25 border-radius bg-white border-none block"
       [class.rtl-enabled]="themeService.isRTLEnabled()"
     >
       <mat-card-header>

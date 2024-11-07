@@ -1,11 +1,11 @@
-<mat-card class="daxa-card projects-progress-card mb-25 border-radius bg-white border-none d-block">
-    <mat-card-header>
-        <mat-card-title>
-            <h5 class="mb-0">
-                Projects Progress
-            </h5>
-        </mat-card-title>
-        <!-- <mat-card-subtitle>
+<mat-card
+  class="daxa-card projects-progress-card mb-25 border-radius bg-white border-none block"
+>
+  <mat-card-header>
+    <mat-card-title>
+      <h5 class="mb-0">Projects Progress</h5>
+    </mat-card-title>
+    <!-- <mat-card-subtitle>
             <button type="button" mat-button class="card-header-menu-btn" [matMenuTriggerFor]="cardHeaderMenu">
                 This Week
             </button>
@@ -24,17 +24,17 @@
                 </button>
             </mat-menu>
         </mat-card-subtitle> -->
-    </mat-card-header>
-    <mat-card-content>
-        <apx-chart
-            [series]="chartOptions.series!"
-            [chart]="chartOptions.chart!"
-            [legend]="chartOptions.legend!"
-            [colors]="chartOptions.colors!"
-            [tooltip]="chartOptions.tooltip!"
-            [labels]="chartOptions.labels!"
-            [dataLabels]="chartOptions.dataLabels!"
-            [responsive]="chartOptions.responsive!"
-        ></apx-chart>
-    </mat-card-content>
+  </mat-card-header>
+  <mat-card-content>
+    <apx-chart
+      [series]="chartOptions.series!"
+      [chart]="chartOptions.chart!"
+      [legend]="chartOptions.legend!"
+      [colors]="chartOptions.colors!"
+      [tooltip]="chartOptions.tooltip!"
+      [labels]="chartOptions.labels!"
+      [dataLabels]="chartOptions.dataLabels!"
+      [responsive]="chartOptions.responsive!"
+    ></apx-chart>
+  </mat-card-content>
 </mat-card>
