@@ -1,7 +1,5 @@
 <!-- Breadcrumb -->
-<div
-  class="breadcrumb-card mb-25 d-md-flex align-items-center justify-content-between"
->
+<div class="breadcrumb-card mb-25 d-md-flex items-center justify-between">
   <h5 class="mb-0">Order Details</h5>
   <ol class="breadcrumb list-unstyled mt-0 mb-0 pl-0">
     <li class="breadcrumb-item position-relative">
@@ -24,43 +22,43 @@
       [class.rtl-enabled]="themeService.isRTLEnabled()"
     >
       <mat-card-content>
-        <span class="block fw-medium text-white">
+        <span class="block font-medium text-white">
           Tracking ID: 000346798254
         </span>
         <div
-          class="numbers position-relative d-sm-flex align-items-center justify-content-between"
+          class="numbers position-relative d-sm-flex items-center justify-between"
         >
           <div class="box">
             <div
-              class="rounded-circle text-center transition text-white fw-medium"
+              class="rounded-circle text-center transition text-white font-medium"
             >
               01
             </div>
-            <span class="fw-medium block text-white"> Order Placed </span>
+            <span class="font-medium block text-white"> Order Placed </span>
           </div>
           <div class="box">
             <div
-              class="rounded-circle text-center transition text-white fw-medium"
+              class="rounded-circle text-center transition text-white font-medium"
             >
               02
             </div>
-            <span class="fw-medium block text-white"> Packed </span>
+            <span class="font-medium block text-white"> Packed </span>
           </div>
           <div class="box active">
             <div
-              class="rounded-circle text-center transition text-white fw-medium"
+              class="rounded-circle text-center transition text-white font-medium"
             >
               03
             </div>
-            <span class="fw-medium block text-white"> Shipped </span>
+            <span class="font-medium block text-white"> Shipped </span>
           </div>
           <div class="box">
             <div
-              class="rounded-circle text-center transition text-white fw-medium"
+              class="rounded-circle text-center transition text-white font-medium"
             >
               04
             </div>
-            <span class="fw-medium block text-white"> Delivered </span>
+            <span class="font-medium block text-white"> Delivered </span>
           </div>
         </div>
       </mat-card-content>
@@ -93,13 +91,13 @@
               <ng-container matColumnDef="product">
                 <th mat-header-cell *matHeaderCellDef>Product</th>
                 <td mat-cell *matCellDef="let element">
-                  <div class="info flex align-items-center">
+                  <div class="info flex items-center">
                     <div class="image">
                       <img [src]="element.product.img" alt="product-image" />
                     </div>
                     <a
                       routerLink="/ecommerce-page/product-details"
-                      class="block fw-medium"
+                      class="block font-medium"
                     >
                       {{ element.product.name }}
                     </a>
@@ -156,8 +154,10 @@
             <table>
               <thead>
                 <tr>
-                  <th scope="col" class="fw-medium text-black">Description</th>
-                  <th scope="col" class="fw-medium text-black">Price</th>
+                  <th scope="col" class="font-medium text-black">
+                    Description
+                  </th>
+                  <th scope="col" class="font-medium text-black">Price</th>
                 </tr>
               </thead>
               <tbody>
@@ -194,15 +194,13 @@
           </div>
         </div>
         <h5>Payment Method</h5>
-        <div
-          class="payment-method flex align-items-center justify-content-between"
-        >
-          <div class="flex align-items-center">
+        <div class="payment-method flex items-center justify-between">
+          <div class="flex items-center">
             <div class="icon">
               <img src="images/master-card.png" alt="master-card" />
             </div>
             <div class="info">
-              <span class="block fw-medium"> Payment </span>
+              <span class="block font-medium"> Payment </span>
               <span class="block text-body"> Via MasterCard </span>
             </div>
           </div>

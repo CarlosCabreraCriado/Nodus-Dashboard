@@ -53,11 +53,11 @@
           <ng-container matColumnDef="customer">
             <th mat-header-cell *matHeaderCellDef>Customer</th>
             <td mat-cell *matCellDef="let element">
-              <div class="info flex align-items-center">
+              <div class="info flex items-center">
                 <div class="image">
                   <img [src]="element.customer.img" alt="customer-image" />
                 </div>
-                <span class="block text-black fw-medium">
+                <span class="block text-black font-medium">
                   {{ element.customer.name }}
                 </span>
               </div>

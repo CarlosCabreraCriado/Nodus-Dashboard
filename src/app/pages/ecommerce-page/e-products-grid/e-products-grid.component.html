@@ -1,7 +1,5 @@
 <!-- Breadcrumb -->
-<div
-  class="breadcrumb-card mb-25 d-md-flex align-items-center justify-content-between"
->
+<div class="breadcrumb-card mb-25 d-md-flex items-center justify-between">
   <h5 class="mb-0">Products Grid</h5>
   <ol class="breadcrumb list-unstyled mt-0 mb-0 pl-0">
     <li class="breadcrumb-item position-relative">
@@ -33,7 +31,7 @@
       </mat-card-header>
       <mat-card-content>
         <div class="filter-item">
-          <span class="block fw-medium"> Search </span>
+          <span class="block font-medium"> Search </span>
           <form class="search-box position-relative">
             <i class="material-symbols-outlined"> search </i>
             <input
@@ -44,7 +42,7 @@
           </form>
         </div>
         <div class="filter-item">
-          <span class="block fw-medium"> Items for </span>
+          <span class="block font-medium"> Items for </span>
           <ul class="filters-list pl-0 mb-0 list-unstyled">
             <li>
               <mat-checkbox> Women </mat-checkbox>
@@ -61,73 +59,73 @@
           </ul>
         </div>
         <div class="filter-item">
-          <span class="block fw-medium"> Categories </span>
+          <span class="block font-medium"> Categories </span>
           <ul class="filters-list pl-0 mb-0 list-unstyled">
-            <li class="flex align-items-center justify-content-between">
+            <li class="flex items-center justify-between">
               <mat-checkbox> All </mat-checkbox>
               <span class="number block text-body"> 246 </span>
             </li>
-            <li class="flex align-items-center justify-content-between">
+            <li class="flex items-center justify-between">
               <mat-checkbox> Electronics </mat-checkbox>
               <span class="number block text-body"> 85 </span>
             </li>
-            <li class="flex align-items-center justify-content-between">
+            <li class="flex items-center justify-between">
               <mat-checkbox> Accessories </mat-checkbox>
               <span class="number block text-body"> 99 </span>
             </li>
-            <li class="flex align-items-center justify-content-between">
+            <li class="flex items-center justify-between">
               <mat-checkbox> Sports </mat-checkbox>
               <span class="number block text-body"> 27 </span>
             </li>
-            <li class="flex align-items-center justify-content-between">
+            <li class="flex items-center justify-between">
               <mat-checkbox> Games </mat-checkbox>
               <span class="number block text-body"> 16 </span>
             </li>
-            <li class="flex align-items-center justify-content-between">
+            <li class="flex items-center justify-between">
               <mat-checkbox> Computers </mat-checkbox>
               <span class="number block text-body"> 38 </span>
             </li>
-            <li class="flex align-items-center justify-content-between">
+            <li class="flex items-center justify-between">
               <mat-checkbox> Mobiles </mat-checkbox>
               <span class="number block text-body"> 24 </span>
             </li>
           </ul>
         </div>
         <div class="filter-item">
-          <span class="block fw-medium"> Brands </span>
+          <span class="block font-medium"> Brands </span>
           <ul class="filters-list pl-0 mb-0 list-unstyled">
-            <li class="flex align-items-center justify-content-between">
+            <li class="flex items-center justify-between">
               <mat-checkbox> All </mat-checkbox>
               <span class="number block text-body"> 156 </span>
             </li>
-            <li class="flex align-items-center justify-content-between">
+            <li class="flex items-center justify-between">
               <mat-checkbox> Adidas </mat-checkbox>
               <span class="number block text-body"> 34 </span>
             </li>
-            <li class="flex align-items-center justify-content-between">
+            <li class="flex items-center justify-between">
               <mat-checkbox> Banboo </mat-checkbox>
               <span class="number block text-body"> 26 </span>
             </li>
-            <li class="flex align-items-center justify-content-between">
+            <li class="flex items-center justify-between">
               <mat-checkbox> Canin </mat-checkbox>
               <span class="number block text-body"> 19 </span>
             </li>
-            <li class="flex align-items-center justify-content-between">
+            <li class="flex items-center justify-between">
               <mat-checkbox> Debilop </mat-checkbox>
               <span class="number block text-body"> 29 </span>
             </li>
-            <li class="flex align-items-center justify-content-between">
+            <li class="flex items-center justify-between">
               <mat-checkbox> Emburo </mat-checkbox>
               <span class="number block text-body"> 10 </span>
             </li>
-            <li class="flex align-items-center justify-content-between">
+            <li class="flex items-center justify-between">
               <mat-checkbox> Fediz </mat-checkbox>
               <span class="number block text-body"> 13 </span>
             </li>
           </ul>
         </div>
         <div class="filter-item">
-          <span class="block fw-medium"> Colors </span>
+          <span class="block font-medium"> Colors </span>
           <ul class="filters-list colors pl-0 list-unstyled">
             <li class=".inline-block black">
               <mat-checkbox></mat-checkbox>
@@ -162,24 +160,24 @@
           </ul>
         </div>
         <div class="filter-item">
-          <span class="block fw-medium"> Price </span>
+          <span class="block font-medium"> Price </span>
           <div class="price-filter">
             <mat-slider min="0" step="10" max="5000">
               <input matSliderStartThumb [(ngModel)]="startValue" />
               <input matSliderEndThumb [(ngModel)]="endValue" />
             </mat-slider>
-            <div class="value flex align-items-center justify-content-between">
+            <div class="value flex items-center justify-between">
               <span class="block text-body"> ${{ startValue }} </span>
               <span class="block text-body"> ${{ endValue }} </span>
             </div>
           </div>
         </div>
         <div class="filter-item">
-          <span class="block fw-medium"> Ratings </span>
+          <span class="block font-medium"> Ratings </span>
           <ul class="filters-list pl-0 mb-0 list-unstyled">
-            <li class="flex align-items-center justify-content-between">
+            <li class="flex items-center justify-between">
               <mat-checkbox>
-                <div class="ratings lh-1 flex align-items-center text-body">
+                <div class="ratings lh-1 flex items-center text-body">
                   <i class="ri-star-fill"></i>
                   <i class="ri-star-fill"></i>
                   <i class="ri-star-fill"></i>
@@ -190,9 +188,9 @@
               </mat-checkbox>
               <span class="number block text-body"> 145 </span>
             </li>
-            <li class="flex align-items-center justify-content-between">
+            <li class="flex items-center justify-between">
               <mat-checkbox>
-                <div class="ratings lh-1 flex align-items-center text-body">
+                <div class="ratings lh-1 flex items-center text-body">
                   <i class="ri-star-fill"></i>
                   <i class="ri-star-fill"></i>
                   <i class="ri-star-fill"></i>
@@ -203,9 +201,9 @@
               </mat-checkbox>
               <span class="number block text-body"> 75 </span>
             </li>
-            <li class="flex align-items-center justify-content-between">
+            <li class="flex items-center justify-between">
               <mat-checkbox>
-                <div class="ratings lh-1 flex align-items-center text-body">
+                <div class="ratings lh-1 flex items-center text-body">
                   <i class="ri-star-fill"></i>
                   <i class="ri-star-fill"></i>
                   <i class="ri-star-fill"></i>
@@ -216,9 +214,9 @@
               </mat-checkbox>
               <span class="number block text-body"> 12 </span>
             </li>
-            <li class="flex align-items-center justify-content-between">
+            <li class="flex items-center justify-between">
               <mat-checkbox>
-                <div class="ratings lh-1 flex align-items-center text-body">
+                <div class="ratings lh-1 flex items-center text-body">
                   <i class="ri-star-fill"></i>
                   <i class="ri-star-fill"></i>
                   <i class="ri-star-line"></i>
@@ -229,9 +227,9 @@
               </mat-checkbox>
               <span class="number block text-body"> 5 </span>
             </li>
-            <li class="flex align-items-center justify-content-between">
+            <li class="flex items-center justify-between">
               <mat-checkbox>
-                <div class="ratings lh-1 flex align-items-center text-body">
+                <div class="ratings lh-1 flex items-center text-body">
                   <i class="ri-star-fill"></i>
                   <i class="ri-star-line"></i>
                   <i class="ri-star-line"></i>
@@ -276,14 +274,12 @@
                   Luxury Rendering
                 </a>
               </h5>
-              <div
-                class="price flex align-items-center justify-content-center lh-1"
-              >
-                <span class="text-black fw-medium block"> $150.00 </span>
+              <div class="price flex items-center justify-center lh-1">
+                <span class="text-black font-medium block"> $150.00 </span>
                 <span class="text-body block"> $180.00 </span>
               </div>
               <div
-                class="ratings lh-1 flex align-items-center justify-content-center text-body"
+                class="ratings lh-1 flex items-center justify-center text-body"
               >
                 <i class="ri-star-fill"></i>
                 <i class="ri-star-fill"></i>
@@ -326,14 +322,12 @@
                   Mobile Device
                 </a>
               </h5>
-              <div
-                class="price flex align-items-center justify-content-center lh-1"
-              >
-                <span class="text-black fw-medium block"> $750.00 </span>
+              <div class="price flex items-center justify-center lh-1">
+                <span class="text-black font-medium block"> $750.00 </span>
                 <span class="text-body block"> $780.00 </span>
               </div>
               <div
-                class="ratings lh-1 flex align-items-center justify-content-center text-body"
+                class="ratings lh-1 flex items-center justify-center text-body"
               >
                 <i class="ri-star-fill"></i>
                 <i class="ri-star-fill"></i>
@@ -376,14 +370,12 @@
                   Gaming Laptop
                 </a>
               </h5>
-              <div
-                class="price flex align-items-center justify-content-center lh-1"
-              >
-                <span class="text-black fw-medium block"> $25.00 </span>
+              <div class="price flex items-center justify-center lh-1">
+                <span class="text-black font-medium block"> $25.00 </span>
                 <span class="text-body block"> $300.00 </span>
               </div>
               <div
-                class="ratings lh-1 flex align-items-center justify-content-center text-body"
+                class="ratings lh-1 flex items-center justify-center text-body"
               >
                 <i class="ri-star-fill"></i>
                 <i class="ri-star-fill"></i>
@@ -426,14 +418,12 @@
                   Wireless Headphone
                 </a>
               </h5>
-              <div
-                class="price flex align-items-center justify-content-center lh-1"
-              >
-                <span class="text-black fw-medium block"> $80.00 </span>
+              <div class="price flex items-center justify-center lh-1">
+                <span class="text-black font-medium block"> $80.00 </span>
                 <span class="text-body block"> $100.00 </span>
               </div>
               <div
-                class="ratings lh-1 flex align-items-center justify-content-center text-body"
+                class="ratings lh-1 flex items-center justify-center text-body"
               >
                 <i class="ri-star-fill"></i>
                 <i class="ri-star-fill"></i>
@@ -474,14 +464,12 @@
               <h5>
                 <a routerLink="/ecommerce-page/product-details"> Hand Watch </a>
               </h5>
-              <div
-                class="price flex align-items-center justify-content-center lh-1"
-              >
-                <span class="text-black fw-medium block"> $120.00 </span>
+              <div class="price flex items-center justify-center lh-1">
+                <span class="text-black font-medium block"> $120.00 </span>
                 <span class="text-body block"> $130.00 </span>
               </div>
               <div
-                class="ratings lh-1 flex align-items-center justify-content-center text-body"
+                class="ratings lh-1 flex items-center justify-center text-body"
               >
                 <i class="ri-star-fill"></i>
                 <i class="ri-star-fill"></i>
@@ -524,14 +512,12 @@
                   Futuristic Bracelet
                 </a>
               </h5>
-              <div
-                class="price flex align-items-center justify-content-center lh-1"
-              >
-                <span class="text-black fw-medium block"> $15.00 </span>
+              <div class="price flex items-center justify-center lh-1">
+                <span class="text-black font-medium block"> $15.00 </span>
                 <span class="text-body block"> $19.00 </span>
               </div>
               <div
-                class="ratings lh-1 flex align-items-center justify-content-center text-body"
+                class="ratings lh-1 flex items-center justify-center text-body"
               >
                 <i class="ri-star-fill"></i>
                 <i class="ri-star-fill"></i>
@@ -574,14 +560,12 @@
                   Triblend T-shirt
                 </a>
               </h5>
-              <div
-                class="price flex align-items-center justify-content-center lh-1"
-              >
-                <span class="text-black fw-medium block"> $45.00 </span>
+              <div class="price flex items-center justify-center lh-1">
+                <span class="text-black font-medium block"> $45.00 </span>
                 <span class="text-body block"> $75.00 </span>
               </div>
               <div
-                class="ratings lh-1 flex align-items-center justify-content-center text-body"
+                class="ratings lh-1 flex items-center justify-center text-body"
               >
                 <i class="ri-star-fill"></i>
                 <i class="ri-star-fill"></i>
@@ -624,14 +608,12 @@
                   Sports Shoes
                 </a>
               </h5>
-              <div
-                class="price flex align-items-center justify-content-center lh-1"
-              >
-                <span class="text-black fw-medium block"> $55.00 </span>
+              <div class="price flex items-center justify-center lh-1">
+                <span class="text-black font-medium block"> $55.00 </span>
                 <span class="text-body block"> $70.00 </span>
               </div>
               <div
-                class="ratings lh-1 flex align-items-center justify-content-center text-body"
+                class="ratings lh-1 flex items-center justify-center text-body"
               >
                 <i class="ri-star-fill"></i>
                 <i class="ri-star-fill"></i>
@@ -674,14 +656,12 @@
                   Woman Handbag
                 </a>
               </h5>
-              <div
-                class="price flex align-items-center justify-content-center lh-1"
-              >
-                <span class="text-black fw-medium block"> $75.00 </span>
+              <div class="price flex items-center justify-center lh-1">
+                <span class="text-black font-medium block"> $75.00 </span>
                 <span class="text-body block"> $90.00 </span>
               </div>
               <div
-                class="ratings lh-1 flex align-items-center justify-content-center text-body"
+                class="ratings lh-1 flex items-center justify-center text-body"
               >
                 <i class="ri-star-fill"></i>
                 <i class="ri-star-fill"></i>
@@ -701,9 +681,7 @@
     </div>
 
     <!-- Pagination -->
-    <div
-      class="pagination-card mb-25 d-lg-flex align-items-center justify-content-between"
-    >
+    <div class="pagination-card mb-25 d-lg-flex items-center justify-between">
       <p class="mb-0">Showing 1 to 9 of 50 entries</p>
       <ol class="pagination list-unstyled mt-0 mb-0 pl-0">
         <li class="pagination-item .inline-block">

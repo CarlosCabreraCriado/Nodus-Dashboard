@@ -19,14 +19,14 @@
 
   <!-- Main Content -->
   <div
-    class="main-content transition flex flex-column"
+    class="main-content transition flex flex-col"
     [ngClass]="{ active: isSidebarToggled }"
     [class.right-sidebar]="themeService.isRightSidebar()"
     [class.hide-sidebar]="themeService.isHideSidebar()"
   >
     <app-header />
     <router-outlet />
-    <div class="flex-grow-1"></div>
+    <div class="flex-grow"></div>
     <app-footer />
   </div>
 

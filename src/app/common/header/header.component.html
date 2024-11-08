@@ -8,8 +8,8 @@
   [class.card-borderd-theme]="themeService.isCardBorder()"
   [class.rtl-enabled]="themeService.isRTLEnabled()"
 >
-  <div class="d-md-flex align-items-center justify-content-between">
-    <div class="header-left-side flex align-items-center">
+  <div class="d-md-flex items-center justify-between">
+    <div class="header-left-side flex items-center">
       <div
         class="burger-menu cursor-pointer transition d-xl-none"
         [ngClass]="{ active: isSidebarToggled }"
@@ -29,7 +29,7 @@
       </form>
     </div>
     <ul
-      class="header-right-side flex align-items-center mt-0 mb-0 pl-0 list-unstyled"
+      class="header-right-side flex items-center mt-0 mb-0 pl-0 list-unstyled"
     >
       <li>
         <button
@@ -49,7 +49,7 @@
               themeService.isDark() || themeService.isHeaderDark()
             "
           >
-            <span class="title fw-medium block">Choose Language</span>
+            <span class="title font-medium block">Choose Language</span>
             <ul class="menu-body pl-0 mb-0 mt-0 list-unstyled">
               <li>
                 <button mat-button>
@@ -114,8 +114,8 @@
               themeService.isDark() || themeService.isHeaderDark()
             "
           >
-            <div class="title flex align-items-center justify-content-between">
-              <span class="fw-medium">
+            <div class="title flex items-center justify-between">
+              <span class="font-medium">
                 Messages
                 <span class="text-body fw-normal">(05)</span>
               </span>
@@ -132,7 +132,7 @@
                   class="rounded-circle position-absolute"
                   alt="user"
                 />
-                <span class="sub-title block fw-medium">
+                <span class="sub-title block font-medium">
                   Jacob Liwiski
                   <span class="text-body fw-normal">35 mins ago</span>
                 </span>
@@ -155,7 +155,7 @@
                   class="rounded-circle position-absolute"
                   alt="user"
                 />
-                <span class="sub-title block fw-medium">
+                <span class="sub-title block font-medium">
                   Angela Carter
                   <span class="text-body fw-normal">1 day ago</span>
                 </span>
@@ -175,7 +175,7 @@
                   class="rounded-circle position-absolute"
                   alt="user"
                 />
-                <span class="sub-title block fw-medium">
+                <span class="sub-title block font-medium">
                   Brad Traversy
                   <span class="text-body fw-normal">2 days ago</span>
                 </span>
@@ -191,7 +191,7 @@
             <div class="menu-footer text-center">
               <a
                 routerLink="/chat"
-                class="link-btn text-daxa .inline-block fw-medium"
+                class="link-btn text-daxa .inline-block font-medium"
               >
                 View All Messages
               </a>
@@ -218,8 +218,8 @@
               themeService.isDark() || themeService.isHeaderDark()
             "
           >
-            <div class="title flex align-items-center justify-content-between">
-              <span class="fw-medium">
+            <div class="title flex items-center justify-between">
+              <span class="font-medium">
                 Notifications
                 <span class="text-body fw-normal">(03)</span>
               </span>
@@ -236,7 +236,7 @@
                 </div>
                 <span class="sub-title block">
                   You have requested to
-                  <strong class="fw-medium">withdrawal</strong>
+                  <strong class="font-medium">withdrawal</strong>
                 </span>
                 <span class="time block text-body"> 2 hrs ago </span>
                 <a
@@ -254,7 +254,7 @@
                   <i class="material-symbols-outlined"> person </i>
                 </div>
                 <span class="sub-title block">
-                  <strong class="fw-medium">A new user</strong> added in Daxa
+                  <strong class="font-medium">A new user</strong> added in Daxa
                 </span>
                 <span class="time block text-body"> 3 hrs ago </span>
                 <a
@@ -273,7 +273,7 @@
                 </div>
                 <span class="sub-title block">
                   You have requested to
-                  <strong class="fw-medium">withdrawal</strong>
+                  <strong class="font-medium">withdrawal</strong>
                 </span>
                 <span class="time block text-body"> 1 day ago </span>
                 <a
@@ -285,7 +285,7 @@
             <div class="menu-footer text-center">
               <a
                 routerLink="/notifications"
-                class="link-btn text-daxa .inline-block fw-medium"
+                class="link-btn text-daxa .inline-block font-medium"
               >
                 See All Notifications
               </a>
@@ -314,17 +314,17 @@
               themeService.isDark() || themeService.isHeaderDark()
             "
           >
-            <div class="menu-header flex align-items-center">
+            <div class="menu-header flex items-center">
               <img src="images/admin.png" alt="profile-image" />
               <div class="title">
-                <a routerLink="/my-profile" class=".inline-block fw-medium">
+                <a routerLink="/my-profile" class=".inline-block font-medium">
                   Mateo Luca
                 </a>
                 <span class="designation block text-body"> Admin </span>
               </div>
             </div>
             <ul class="menu-body pl-0 mb-0 mt-0 list-unstyled">
-              <li class="position-relative transition fw-medium">
+              <li class="position-relative transition font-medium">
                 <i class="material-symbols-outlined"> person </i>
                 My Profile
                 <a
@@ -332,7 +332,7 @@
                   class="link-btn block position-absolute"
                 ></a>
               </li>
-              <li class="position-relative transition fw-medium">
+              <li class="position-relative transition font-medium">
                 <i class="material-symbols-outlined"> settings </i>
                 Settings
                 <a
@@ -340,7 +340,7 @@
                   class="link-btn block position-absolute"
                 ></a>
               </li>
-              <li class="position-relative transition fw-medium">
+              <li class="position-relative transition font-medium">
                 <i class="material-symbols-outlined"> info </i>
                 Support
                 <a
@@ -348,7 +348,7 @@
                   class="link-btn block position-absolute"
                 ></a>
               </li>
-              <li class="position-relative transition fw-medium">
+              <li class="position-relative transition font-medium">
                 <i class="material-symbols-outlined"> logout </i>
                 Logout
                 <a

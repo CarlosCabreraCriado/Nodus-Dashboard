@@ -1,7 +1,5 @@
 <!-- Breadcrumb -->
-<div
-  class="breadcrumb-card mb-25 d-md-flex align-items-center justify-content-between"
->
+<div class="breadcrumb-card mb-25 d-md-flex items-center justify-between">
   <h5 class="mb-0">Checkbox</h5>
   <ol class="breadcrumb list-unstyled mt-0 mb-0 pl-0">
     <li class="breadcrumb-item position-relative">
@@ -79,7 +77,7 @@
         >
           {{ task.name }}
         </mat-checkbox>
-        <ul class="mb-0 mt-5 list-unstyled">
+        <ul class="mb-0 mt-1 list-unstyled">
           <li *ngFor="let subtask of task.subtasks">
             <mat-checkbox
               [(ngModel)]="subtask.completed"
@@ -102,15 +100,15 @@
       </mat-card-header>
       <mat-card-content>
         <div [formGroup]="toppings">
-          <h5 class="mb-15">Select your toppings:</h5>
+          <h5 class="mb-4">Select your toppings:</h5>
           <mat-checkbox formControlName="pepperoni">Pepperoni</mat-checkbox>
           <mat-checkbox formControlName="extracheese"
             >Extra Cheese</mat-checkbox
           >
           <mat-checkbox formControlName="mushroom">Mushroom</mat-checkbox>
         </div>
-        <div class="mt-15" [formGroup]="toppings">
-          <h5 class="mb-15">You chose:</h5>
+        <div class="mt-4" [formGroup]="toppings">
+          <h5 class="mb-4">You chose:</h5>
           {{ toppings.value | json }}
         </div>
       </mat-card-content>

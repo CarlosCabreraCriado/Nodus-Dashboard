@@ -2,7 +2,7 @@
   <mat-step [stepControl]="firstFormGroup">
     <form [formGroup]="firstFormGroup">
       <ng-template matStepLabel>Fill out your name</ng-template>
-      <mat-form-field class="mb-20">
+      <mat-form-field class="mb-5">
         <mat-label>Name</mat-label>
         <input
           matInput
@@ -18,7 +18,7 @@
   </mat-step>
   <mat-step [stepControl]="secondFormGroup" label="Fill out your address">
     <form [formGroup]="secondFormGroup">
-      <mat-form-field class="mb-20">
+      <mat-form-field class="mb-5">
         <mat-label>Address</mat-label>
         <input
           matInput
@@ -28,7 +28,7 @@
         />
       </mat-form-field>
       <div>
-        <button mat-flat-button color="warn" class="mr-15" matStepperPrevious>
+        <button mat-flat-button color="warn" class="mr-4" matStepperPrevious>
           Back
         </button>
         <button mat-flat-button class="daxa" matStepperNext>Next</button>
@@ -37,11 +37,9 @@
   </mat-step>
   <mat-step>
     <ng-template matStepLabel>Done</ng-template>
-    <span class="block text-body mb-20"> You are now done. </span>
+    <span class="block text-body mb-5"> You are now done. </span>
     <div>
-      <button mat-flat-button class="daxa mr-15" matStepperPrevious>
-        Back
-      </button>
+      <button mat-flat-button class="daxa mr-4" matStepperPrevious>Back</button>
       <button mat-flat-button color="warn" (click)="stepper.reset()">
         Reset
       </button>

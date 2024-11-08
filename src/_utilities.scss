@@ -4,121 +4,30 @@
 
 
 
-.d-grid {
-    display: grid !important;
-}
-.d-table {
-    display: table !important;
-}
-.d-table-cell {
-    display: table-cell !important;
-}
-.d-table-row {
-    display: table-row !important;
-}
-.d-inline-flex {
-    display: inline-flex !important;
-}
+
+
+
+
 
 // Align items
-.align-items-start {
-    align-items: start !important;
-}
-.align-items-center {
-    align-items: center !important;
-}
-.align-items-end {
-    align-items: end !important;
-}
+
 
 // Justify content
-.justify-content-center {
-    justify-content: center !important;
-}
-.justify-content-between {
-    justify-content: space-between !important;
-}
-.justify-content-end {
-    justify-content: end !important;
-}
+
 
 // Flex
-.flex-column {
-    flex-direction: column !important;
-}
-.flex-grow-1 {
-    flex-grow: 1 !important;
-}
-.flex-wrap {
-    flex-wrap: wrap !important;
-}
+
+
 
 // Text alignment
-.text-center {
-    text-align: center !important;
-}
-.text-left {
-    text-align: left !important;
-}
-.text-right {
-    text-align: right !important;
-}
+
+
+
 
 // Margin
-.ml-auto {
-    margin-left: auto !important;
-}
-.mr-auto {
-    margin-right: auto !important;
-}
-.m-0 {
-    margin: 0 !important;
-}
-.mr-0 {
-    margin-left: 0 !important;
-}
-.mr-0 {
-    margin-right: 0 !important;
-}
-.mt-0 {
-    margin-top: 0 !important;
-}
-.mb-0 {
-    margin-bottom: 0 !important;
-}
-.mb-5 {
-    margin-bottom: 5px !important;
-}
-.mb-10 {
-    margin-bottom: 10px !important;
-}
-.mb-12 {
-    margin-bottom: 12px !important;
-}
-.mb-13 {
-    margin-bottom: 13px !important;
-}
-.mb-15 {
-    margin-bottom: 15px !important;
-}
-.mb-20 {
-    margin-bottom: 20px !important;
-}
-.mt-5 {
-    margin-top: 5px !important;
-}
-.mt-10 {
-    margin-top: 10px !important;
-}
-.mt-15 {
-    margin-top: 15px !important;
-}
-.mt-20 {
-    margin-top: 20px !important;
-}
-.mr-15 {
-    margin-right: 15px !important;
-}
+
+
+
 
 // Color
 .bg-white {
@@ -211,9 +120,7 @@
 }
 
 // Padding
-.p-0 {
-    padding: 0 !important;
-}
+
 .pl-0 {
     padding-left: 0 !important;
 }
@@ -226,29 +133,13 @@
 .pb-0 {
     padding-bottom: 0 !important;
 }
-.ps-15 {
-    padding-left: 15px !important;
-}
-.pe-15 {
-    padding-right: 15px !important;
-}
-.pt-15 {
-    padding-top: 15px !important;
-}
-.pb-15 {
-    padding-bottom: 15px !important;
-}
+
+
 
 // Font weight
-.fw-bold {
-    font-weight: 700 !important;
-}
-.fw-semibold {
-    font-weight: 600 !important;
-}
-.fw-medium {
-    font-weight: 500 !important;
-}
+
+
+
 .fw-normal {
     font-weight: 400 !important;
 }

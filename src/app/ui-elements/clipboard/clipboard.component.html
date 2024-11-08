@@ -1,7 +1,5 @@
 <!-- Breadcrumb -->
-<div
-  class="breadcrumb-card mb-25 d-md-flex align-items-center justify-content-between"
->
+<div class="breadcrumb-card mb-25 d-md-flex items-center justify-between">
   <h5 class="mb-0">Clipboard</h5>
   <ol class="breadcrumb list-unstyled mt-0 mb-0 pl-0">
     <li class="breadcrumb-item position-relative">
@@ -21,7 +19,7 @@
   [class.component-dark-theme]="themeService.isDark()"
 >
   <mat-card-content>
-    <label for="clipboard-example-textarea" class="mb-10 block">
+    <label for="clipboard-example-textarea" class="mb-3 block">
       Text to be copied
     </label>
     <textarea
@@ -31,7 +29,7 @@
       rows="10"
       [(ngModel)]="value"
     ></textarea>
-    <button [cdkCopyToClipboard]="value" mat-flat-button class="daxa mt-10">
+    <button [cdkCopyToClipboard]="value" mat-flat-button class="daxa mt-3">
       Click to Copy Clipboard
     </button>
   </mat-card-content>
