@@ -1,16 +1,16 @@
 <!-- Breadcrumb -->
 <div class="breadcrumb-card mb-25 d-md-flex items-center justify-between">
   <h5 class="mb-0">Create Category</h5>
-  <ol class="breadcrumb list-unstyled mt-0 mb-0 pl-0">
-    <li class="breadcrumb-item position-relative">
-      <a routerLink="/" class=".inline-block position-relative">
+  <ol class="breadcrumb list-none mt-0 mb-0 pl-0">
+    <li class="breadcrumb-item relative">
+      <a routerLink="/" class=".inline-block relative">
         <i class="ri-home-8-line"></i>
         Dashboard
       </a>
     </li>
-    <li class="breadcrumb-item position-relative">E-Commerce</li>
-    <li class="breadcrumb-item position-relative">Categories</li>
-    <li class="breadcrumb-item position-relative">Create Category</li>
+    <li class="breadcrumb-item relative">E-Commerce</li>
+    <li class="breadcrumb-item relative">Categories</li>
+    <li class="breadcrumb-item relative">Create Category</li>
   </ol>
 </div>
 
@@ -29,7 +29,9 @@
       <div class="row">
         <div class="col-sm-6">
           <div class="mb-25">
-            <label class="main-label block lh-1 text-black">
+            <label
+              class="main-label block text-xl font-lighting-none text-black"
+            >
               Category Name
             </label>
             <mat-form-field>
@@ -40,7 +42,11 @@
         </div>
         <div class="col-sm-6">
           <div class="mb-25">
-            <label class="main-label block lh-1 text-black"> Slug </label>
+            <label
+              class="main-label block text-xl font-lighting-none text-black"
+            >
+              Slug
+            </label>
             <mat-form-field>
               <mat-label> Slug </mat-label>
               <input matInput placeholder="E.g. electronics" />
@@ -49,7 +55,9 @@
         </div>
         <div class="col-sm-6">
           <div class="mb-25">
-            <label class="main-label block lh-1 text-black">
+            <label
+              class="main-label block text-xl font-lighting-none text-black"
+            >
               Parent Category
             </label>
             <mat-form-field>
@@ -66,7 +74,9 @@
         </div>
         <div class="col-sm-6">
           <div class="mb-25">
-            <label class="main-label block lh-1 text-black">
+            <label
+              class="main-label block text-xl font-lighting-none text-black"
+            >
               Display Type
             </label>
             <mat-form-field>
@@ -78,9 +88,11 @@
             </mat-form-field>
           </div>
         </div>
-        <div class="col-sm-12">
+        <div class="sm:flex-grow-0 sm:flex-shrink-0 sm:w-full">
           <div class="mb-25">
-            <label class="main-label block lh-1 text-black">
+            <label
+              class="main-label block text-xl font-lighting-none text-black"
+            >
               Description
             </label>
             <div class="NgxEditor__Wrapper">
@@ -95,9 +107,11 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12">
+        <div class="sm:flex-grow-0 sm:flex-shrink-0 sm:w-full">
           <div class="mb-25">
-            <label class="main-label block lh-1 text-black">
+            <label
+              class="main-label block text-xl font-lighting-none text-black"
+            >
               Upload New Category Image
             </label>
             <file-upload

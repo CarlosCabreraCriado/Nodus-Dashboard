@@ -1,15 +1,15 @@
 <!-- Breadcrumb -->
 <div class="breadcrumb-card mb-25 d-md-flex items-center justify-between">
   <h5 class="mb-0">Kanban Board</h5>
-  <ol class="breadcrumb list-unstyled mt-0 mb-0 pl-0">
-    <li class="breadcrumb-item position-relative">
-      <a routerLink="/" class=".inline-block position-relative">
+  <ol class="breadcrumb list-none mt-0 mb-0 pl-0">
+    <li class="breadcrumb-item relative">
+      <a routerLink="/" class=".inline-block relative">
         <i class="ri-home-8-line"></i>
         Dashboard
       </a>
     </li>
-    <li class="breadcrumb-item position-relative">Project Management</li>
-    <li class="breadcrumb-item position-relative">Kanban Board</li>
+    <li class="breadcrumb-item relative">Project Management</li>
+    <li class="breadcrumb-item relative">Kanban Board</li>
   </ol>
 </div>
 
@@ -76,7 +76,7 @@
               {{ item.category }}
             </span>
             <div class="footer flex items-center justify-between">
-              <span class="date text-body block position-relative">
+              <span class="date text-body block relative">
                 <i class="material-symbols-outlined"> schedule </i>
                 {{ item.createdDate }}
               </span>
@@ -156,7 +156,7 @@
               {{ item.category }}
             </span>
             <div class="footer flex items-center justify-between">
-              <span class="date text-body block position-relative">
+              <span class="date text-body block relative">
                 <i class="material-symbols-outlined"> schedule </i>
                 {{ item.createdDate }}
               </span>
@@ -234,7 +234,7 @@
               {{ item.category }}
             </span>
             <div class="footer flex items-center justify-between">
-              <span class="date text-body block position-relative">
+              <span class="date text-body block relative">
                 <i class="material-symbols-outlined"> schedule </i>
                 {{ item.createdDate }}
               </span>
@@ -314,7 +314,7 @@
               {{ item.category }}
             </span>
             <div class="footer flex items-center justify-between">
-              <span class="date text-body block position-relative">
+              <span class="date text-body block relative">
                 <i class="material-symbols-outlined"> schedule </i>
                 {{ item.createdDate }}
               </span>
@@ -359,14 +359,20 @@
       <mat-card-content>
         <div class="row">
           <div class="col-md-12">
-            <label class="main-label block lh-1 text-black"> Task Name </label>
+            <label
+              class="main-label block text-xl font-lighting-none text-black"
+            >
+              Task Name
+            </label>
             <mat-form-field>
               <mat-label> Task name </mat-label>
               <input matInput placeholder="E.g. Hand Watch" />
             </mat-form-field>
           </div>
           <div class="col-md-12">
-            <label class="main-label block lh-1 text-black">
+            <label
+              class="main-label block text-xl font-lighting-none text-black"
+            >
               Task Description
             </label>
             <mat-form-field class="textarea">
@@ -378,7 +384,9 @@
             </mat-form-field>
           </div>
           <div class="col-md-6">
-            <label class="main-label block lh-1 text-black">
+            <label
+              class="main-label block text-xl font-lighting-none text-black"
+            >
               Team Members
             </label>
             <mat-form-field>
@@ -394,7 +402,9 @@
             </mat-form-field>
           </div>
           <div class="col-md-6">
-            <label class="main-label block lh-1 text-black">
+            <label
+              class="main-label block text-xl font-lighting-none text-black"
+            >
               Deadline Date
             </label>
             <mat-form-field class="date">

@@ -9,19 +9,19 @@
     </mat-card-title>
   </mat-card-header>
   <mat-card-content>
-    <form class="search-box position-relative">
+    <form class="search-box relative">
       <i class="material-symbols-outlined"> search </i>
       <input
         type="text"
-        class="input-search block w-100 border-none outline-0"
+        class="input-search block w-full border-none outline-0"
         placeholder="Search..."
       />
     </form>
-    <ul class="sidebar-list pl-0 list-unstyled">
+    <ul class="sidebar-list pl-0 list-none">
       <li>
         <a
           routerLink="/file-manager"
-          class="flex items-center justify-between position-relative"
+          class="flex items-center justify-between relative"
           routerLinkActive="active"
           [routerLinkActiveOptions]="{ exact: true }"
         >
@@ -33,7 +33,7 @@
           <li>
             <a
               routerLink="/file-manager/assets"
-              class=".inline-block position-relative"
+              class=".inline-block relative"
               routerLinkActive="active"
               [routerLinkActiveOptions]="{ exact: true }"
             >
@@ -43,7 +43,7 @@
           <li>
             <a
               routerLink="/file-manager/projects"
-              class=".inline-block position-relative"
+              class=".inline-block relative"
               routerLinkActive="active"
               [routerLinkActiveOptions]="{ exact: true }"
             >
@@ -53,7 +53,7 @@
           <li>
             <a
               routerLink="/file-manager/personal"
-              class=".inline-block position-relative"
+              class=".inline-block relative"
               routerLinkActive="active"
               [routerLinkActiveOptions]="{ exact: true }"
             >
@@ -63,7 +63,7 @@
           <li>
             <a
               routerLink="/file-manager/applications"
-              class=".inline-block position-relative"
+              class=".inline-block relative"
               routerLinkActive="active"
               [routerLinkActiveOptions]="{ exact: true }"
             >
@@ -75,7 +75,7 @@
       <li>
         <a
           routerLink="/file-manager/documents"
-          class="flex items-center justify-between position-relative"
+          class="flex items-center justify-between relative"
           routerLinkActive="active"
           [routerLinkActiveOptions]="{ exact: true }"
         >
@@ -86,7 +86,7 @@
       <li>
         <a
           routerLink="/file-manager/media"
-          class="flex items-center justify-between position-relative"
+          class="flex items-center justify-between relative"
           routerLinkActive="active"
           [routerLinkActiveOptions]="{ exact: true }"
         >
@@ -97,7 +97,7 @@
       <li>
         <a
           href="javascript:void(0);"
-          class="flex items-center justify-between position-relative"
+          class="flex items-center justify-between relative"
         >
           <i class="material-symbols-outlined"> schedule </i>
           Recents
@@ -106,7 +106,7 @@
       <li>
         <a
           href="javascript:void(0);"
-          class="flex items-center justify-between position-relative"
+          class="flex items-center justify-between relative"
         >
           <i class="material-symbols-outlined"> grade </i>
           Important
@@ -115,7 +115,7 @@
       <li>
         <a
           href="javascript:void(0);"
-          class="flex items-center justify-between position-relative"
+          class="flex items-center justify-between relative"
         >
           <i class="material-symbols-outlined"> report_gmailerrorred </i>
           Spam
@@ -125,7 +125,7 @@
       <li>
         <a
           href="javascript:void(0);"
-          class="flex items-center justify-between position-relative"
+          class="flex items-center justify-between relative"
         >
           <i class="material-symbols-outlined"> delete </i>
           Trash

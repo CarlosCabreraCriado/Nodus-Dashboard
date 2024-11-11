@@ -22,7 +22,11 @@
         </div>
         <form [formGroup]="authForm" (ngSubmit)="onSubmit()">
           <div class="form-group">
-            <label class="main-label block lh-1 text-black"> Password </label>
+            <label
+              class="main-label block text-xl font-lighting-none text-black"
+            >
+              Password
+            </label>
             <mat-form-field>
               <mat-label> Enter password </mat-label>
               <input

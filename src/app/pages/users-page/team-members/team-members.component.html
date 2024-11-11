@@ -1,15 +1,15 @@
 <!-- Breadcrumb -->
 <div class="breadcrumb-card mb-25 d-md-flex items-center justify-between">
   <h5 class="mb-0">Team Members</h5>
-  <ol class="breadcrumb list-unstyled mt-0 mb-0 pl-0">
-    <li class="breadcrumb-item position-relative">
-      <a routerLink="/" class=".inline-block position-relative">
+  <ol class="breadcrumb list-none mt-0 mb-0 pl-0">
+    <li class="breadcrumb-item relative">
+      <a routerLink="/" class=".inline-block relative">
         <i class="ri-home-8-line"></i>
         Dashboard
       </a>
     </li>
-    <li class="breadcrumb-item position-relative">Users</li>
-    <li class="breadcrumb-item position-relative">Team Members</li>
+    <li class="breadcrumb-item relative">Users</li>
+    <li class="breadcrumb-item relative">Team Members</li>
   </ol>
 </div>
 
@@ -25,11 +25,11 @@
       </a>
     </mat-card-title>
     <mat-card-subtitle>
-      <form class="search-box position-relative">
+      <form class="search-box relative">
         <i class="material-symbols-outlined"> search </i>
         <input
           type="text"
-          class="input-search block w-100 border-none outline-0"
+          class="input-search block w-full border-none outline-0"
           placeholder="Search member..."
         />
       </form>
@@ -68,7 +68,7 @@
       </mat-card-header>
       <mat-card-content>
         <div class="flex items-center">
-          <div class="icon position-relative text-center rounded-circle">
+          <div class="icon relative text-center rounded-circle">
             <img
               [src]="content.memberImg"
               class="rounded-circle"
@@ -77,12 +77,12 @@
           </div>
           <h5 class="mb-0">
             {{ content.memberName }}
-            <span class="block text-body fw-normal">
+            <span class="block text-body font-normal">
               {{ content.designation }}
             </span>
           </h5>
         </div>
-        <ul class="pl-0 mb-0 list-unstyled">
+        <ul class="pl-0 mb-0 list-none">
           <li>
             <span class="text-body"> Joined Date: </span>
             {{ content.joinedDate }}
@@ -114,7 +114,7 @@
 <!-- Pagination -->
 <div class="pagination-card mb-25 d-lg-flex items-center justify-between">
   <p class="mb-0">Showing 1 to 12 of 80 entries</p>
-  <ol class="pagination list-unstyled mt-0 mb-0 pl-0">
+  <ol class="pagination list-none mt-0 mb-0 pl-0">
     <li class="pagination-item .inline-block">
       <a mat-button routerLink="/users">
         <i class="material-symbols-outlined"> west </i>

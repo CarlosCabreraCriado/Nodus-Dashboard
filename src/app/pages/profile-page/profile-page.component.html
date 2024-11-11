@@ -1,14 +1,14 @@
 <!-- Breadcrumb -->
 <div class="breadcrumb-card mb-25 d-md-flex items-center justify-between">
   <h5 class="mb-0">Profile</h5>
-  <ol class="breadcrumb list-unstyled mt-0 mb-0 pl-0">
-    <li class="breadcrumb-item position-relative">
-      <a routerLink="/" class=".inline-block position-relative">
+  <ol class="breadcrumb list-none mt-0 mb-0 pl-0">
+    <li class="breadcrumb-item relative">
+      <a routerLink="/" class=".inline-block relative">
         <i class="ri-home-8-line"></i>
         Dashboard
       </a>
     </li>
-    <li class="breadcrumb-item position-relative">Profile</li>
+    <li class="breadcrumb-item relative">Profile</li>
   </ol>
 </div>
 
@@ -19,7 +19,7 @@
   [class.rtl-enabled]="themeService.isRTLEnabled()"
 >
   <mat-card-content>
-    <div class="cover-image position-relative border-top-radius">
+    <div class="cover-image relative border-top-radius">
       <img
         src="images/profile-big-cover.jpg"
         class="border-top-radius"
@@ -46,7 +46,7 @@
     <div class="profile-content">
       <div class="d-md-flex items-end justify-between">
         <div class="d-md-flex items-end">
-          <div class="image position-relative">
+          <div class="image relative">
             <img
               src="images/profile.jpg"
               class="rounded-circle"
@@ -79,11 +79,11 @@
           <button mat-button>Share Profile</button>
         </div>
       </div>
-      <ul class="nav-links text-center pl-0 mb-0 list-unstyled">
+      <ul class="nav-links text-center pl-0 mb-0 list-none">
         <li class=".inline-block">
           <a
             routerLink="/profile"
-            class="block position-relative"
+            class="block relative"
             routerLinkActive="active"
             [routerLinkActiveOptions]="{ exact: true }"
           >
@@ -93,7 +93,7 @@
         <li class=".inline-block">
           <a
             routerLink="/profile/teams"
-            class="block position-relative"
+            class="block relative"
             routerLinkActive="active"
             [routerLinkActiveOptions]="{ exact: true }"
           >
@@ -103,7 +103,7 @@
         <li class=".inline-block">
           <a
             routerLink="/profile/projects"
-            class="block position-relative"
+            class="block relative"
             routerLinkActive="active"
             [routerLinkActiveOptions]="{ exact: true }"
           >

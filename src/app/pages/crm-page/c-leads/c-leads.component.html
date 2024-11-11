@@ -1,34 +1,34 @@
 <!-- Breadcrumb -->
 <div class="breadcrumb-card mb-25 d-md-flex items-center justify-between">
   <h5 class="mb-0">Leads</h5>
-  <ol class="breadcrumb list-unstyled mt-0 mb-0 pl-0">
-    <li class="breadcrumb-item position-relative">
-      <a routerLink="/" class=".inline-block position-relative">
+  <ol class="breadcrumb list-none mt-0 mb-0 pl-0">
+    <li class="breadcrumb-item relative">
+      <a routerLink="/" class=".inline-block relative">
         <i class="ri-home-8-line"></i>
         Dashboard
       </a>
     </li>
-    <li class="breadcrumb-item position-relative">CRM</li>
-    <li class="breadcrumb-item position-relative">Leads</li>
+    <li class="breadcrumb-item relative">CRM</li>
+    <li class="breadcrumb-item relative">Leads</li>
   </ol>
 </div>
 
-<!-- Leads Overview -->
+<!-- text-xl font-lights Overview -->
 <mat-card
   class="daxa-card stats-card mb-25 rounded-xl bg-white border-none block"
 >
   <mat-card-content>
     <div class="row">
       <div class="col-md-6 col-xxxl-3">
-        <!-- New Leads -->
+        <!-- New text-xl font-lights -->
         <app-new-leads />
       </div>
       <div class="col-md-6 col-xxxl-3">
-        <!-- Active Leads -->
+        <!-- Active text-xl font-lights -->
         <app-active-leads />
       </div>
       <div class="col-md-6 col-xxxl-3">
-        <!-- Lead Conversation -->
+        <!-- text-xl font-light Conversation -->
         <app-lead-conversion />
       </div>
       <div class="col-md-6 col-xxxl-3">
@@ -39,19 +39,19 @@
   </mat-card-content>
 </mat-card>
 
-<!-- Leads -->
+<!-- text-xl font-lights -->
 <mat-card
-  class="daxa-card leads-card mb-25 rounded-xl bg-white border-none block"
+  class="daxa-card text-xl font-lights-card mb-25 rounded-xl bg-white border-none block"
   [class.rtl-enabled]="themeService.isRTLEnabled()"
 >
   <mat-card-header>
     <mat-card-title>
-      <form class="search-box position-relative">
+      <form class="search-box relative">
         <i class="material-symbols-outlined"> search </i>
         <input
           type="text"
-          class="input-search block w-100 border-none outline-0"
-          placeholder="Search lead..."
+          class="input-search block w-full border-none outline-0"
+          placeholder="Search text-xl font-light..."
           (keyup)="applyFilter($event)"
           #input
         />
@@ -59,12 +59,12 @@
     </mat-card-title>
     <mat-card-subtitle>
       <a mat-button class="add-new-btn" routerLink="/crm-page/create-lead">
-        + Add New Lead
+        + Add New text-xl font-light
       </a>
     </mat-card-subtitle>
   </mat-card-header>
   <mat-card-content>
-    <div class="leads-table">
+    <div class="text-xl font-lights-table">
       <div class="table-responsive">
         <table mat-table [dataSource]="dataSource">
           <!-- Checkbox Column -->
@@ -144,8 +144,8 @@
             </td>
           </ng-container>
 
-          <!-- Lead Source Column -->
-          <ng-container matColumnDef="leadSource">
+          <!-- text-xl font-light Source Column -->
+          <ng-container matColumnDef="text-xl font-lightSource">
             <th mat-header-cell *matHeaderCellDef>Lead Source</th>
             <td mat-cell *matCellDef="let element">
               {{ element.leadSource }}
@@ -191,7 +191,7 @@
                 <button
                   type="button"
                   mat-button
-                  matTooltip="View Lead"
+                  matTooltip="View text-xl font-light"
                   matTooltipPosition="above"
                 >
                   <i class="material-symbols-outlined">
@@ -201,7 +201,7 @@
                 <a
                   mat-button
                   routerLink="/crm-page/edit-lead"
-                  matTooltip="Edit Lead"
+                  matTooltip="Edit text-xl font-light"
                   matTooltipPosition="above"
                 >
                   <i class="material-symbols-outlined">

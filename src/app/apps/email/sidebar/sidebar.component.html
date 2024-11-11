@@ -4,20 +4,20 @@
   [class.rtl-enabled]="themeService.isRTLEnabled()"
 >
   <mat-card-content>
-    <form class="search-box position-relative">
+    <form class="search-box relative">
       <i class="material-symbols-outlined"> search </i>
       <input
         type="text"
-        class="input-search block w-100 border-none outline-0"
+        class="input-search block w-full border-none outline-0"
         placeholder="Search..."
       />
     </form>
     <a routerLink="/email/compose" class="btn" mat-button> Compose Email </a>
-    <ul class="sidebar-list pl-0 list-unstyled">
+    <ul class="sidebar-list pl-0 list-none">
       <li>
         <a
           routerLink="/email"
-          class="flex items-center justify-between position-relative"
+          class="flex items-center justify-between relative"
           routerLinkActive="active"
           [routerLinkActiveOptions]="{ exact: true }"
         >
@@ -29,7 +29,7 @@
       <li>
         <a
           href="javascript:void(0);"
-          class="flex items-center justify-between position-relative"
+          class="flex items-center justify-between relative"
         >
           <i class="material-symbols-outlined"> grade </i>
           Starred
@@ -38,7 +38,7 @@
       <li>
         <a
           href="javascript:void(0);"
-          class="flex items-center justify-between position-relative"
+          class="flex items-center justify-between relative"
         >
           <i class="material-symbols-outlined"> snooze </i>
           Snoozed
@@ -47,7 +47,7 @@
       <li>
         <a
           href="javascript:void(0);"
-          class="flex items-center justify-between position-relative"
+          class="flex items-center justify-between relative"
         >
           <i class="material-symbols-outlined"> send </i>
           Sent
@@ -56,7 +56,7 @@
       <li>
         <a
           href="javascript:void(0);"
-          class="flex items-center justify-between position-relative"
+          class="flex items-center justify-between relative"
         >
           <i class="material-symbols-outlined"> drafts </i>
           Drafts
@@ -65,7 +65,7 @@
       <li>
         <a
           href="javascript:void(0);"
-          class="flex items-center justify-between position-relative"
+          class="flex items-center justify-between relative"
         >
           <i class="material-symbols-outlined"> report_gmailerrorred </i>
           Spam
@@ -75,7 +75,7 @@
       <li>
         <a
           href="javascript:void(0);"
-          class="flex items-center justify-between position-relative"
+          class="flex items-center justify-between relative"
         >
           <i class="material-symbols-outlined"> delete </i>
           Trash
@@ -85,7 +85,7 @@
       <li>
         <a
           href="javascript:void(0);"
-          class="flex items-center justify-between position-relative"
+          class="flex items-center justify-between relative"
         >
           <i class="material-symbols-outlined"> bookmark_border </i>
           Important
@@ -94,7 +94,7 @@
       <li>
         <a
           href="javascript:void(0);"
-          class="flex items-center justify-between position-relative"
+          class="flex items-center justify-between relative"
         >
           <i class="material-symbols-outlined"> email </i>
           All Mail
@@ -103,7 +103,7 @@
       <li>
         <a
           href="javascript:void(0);"
-          class="flex items-center justify-between position-relative"
+          class="flex items-center justify-between relative"
         >
           <i class="material-symbols-outlined"> person </i>
           Personal
@@ -112,7 +112,7 @@
       <li>
         <a
           href="javascript:void(0);"
-          class="flex items-center justify-between position-relative"
+          class="flex items-center justify-between relative"
         >
           <i class="material-symbols-outlined"> business_center </i>
           Company
@@ -121,7 +121,7 @@
       <li>
         <a
           href="javascript:void(0);"
-          class="flex items-center justify-between position-relative"
+          class="flex items-center justify-between relative"
         >
           <i class="material-symbols-outlined"> attach_money </i>
           Wallet Balance
@@ -130,7 +130,7 @@
       <li>
         <a
           href="javascript:void(0);"
-          class="flex items-center justify-between position-relative"
+          class="flex items-center justify-between relative"
         >
           <i class="material-symbols-outlined"> people </i>
           Friends

@@ -8,11 +8,11 @@
       <h5 class="mb-0">To Do List</h5>
     </mat-card-title>
     <mat-card-subtitle>
-      <form class="search-box position-relative">
+      <form class="search-box relative">
         <i class="material-symbols-outlined"> search </i>
         <input
           type="text"
-          class="input-search block w-100 border-none outline-0"
+          class="input-search block w-full border-none outline-0"
           placeholder="Search here..."
           (keyup)="applyFilter($event)"
           #input
@@ -195,14 +195,20 @@
       <mat-card-content>
         <div class="row">
           <div class="col-md-12">
-            <label class="main-label block lh-1 text-black"> Task Name </label>
+            <label
+              class="main-label block text-xl font-lighting-none text-black"
+            >
+              Task Name
+            </label>
             <mat-form-field>
               <mat-label> Task name </mat-label>
               <input matInput placeholder="E.g. Hand Watch" />
             </mat-form-field>
           </div>
           <div class="col-md-6">
-            <label class="main-label block lh-1 text-black">
+            <label
+              class="main-label block text-xl font-lighting-none text-black"
+            >
               Assigned To
             </label>
             <mat-form-field>
@@ -218,7 +224,11 @@
             </mat-form-field>
           </div>
           <div class="col-md-6">
-            <label class="main-label block lh-1 text-black"> Due Date </label>
+            <label
+              class="main-label block text-xl font-lighting-none text-black"
+            >
+              Due Date
+            </label>
             <mat-form-field class="date">
               <mat-label> Choose a date </mat-label>
               <input matInput [matDatepicker]="dueDate" />
@@ -230,7 +240,11 @@
             </mat-form-field>
           </div>
           <div class="col-md-6">
-            <label class="main-label block lh-1 text-black"> Priority </label>
+            <label
+              class="main-label block text-xl font-lighting-none text-black"
+            >
+              Priority
+            </label>
             <mat-form-field>
               <mat-label> Select </mat-label>
               <mat-select>
@@ -241,7 +255,11 @@
             </mat-form-field>
           </div>
           <div class="col-md-6">
-            <label class="main-label block lh-1 text-black"> Status </label>
+            <label
+              class="main-label block text-xl font-lighting-none text-black"
+            >
+              Status
+            </label>
             <mat-form-field>
               <mat-label> Select </mat-label>
               <mat-select>

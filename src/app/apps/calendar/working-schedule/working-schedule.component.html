@@ -13,26 +13,26 @@
     <mat-calendar [(selected)]="selected"></mat-calendar>
     <div class="events-content">
       <h5>EVENTS</h5>
-      <ul class="mt-0 pl-0 list-unstyled mb-0">
-        <li class="position-relative">
+      <ul class="mt-0 pl-0 list-none mb-0">
+        <li class="relative">
           <p>Annual Conference</p>
           <span class="block text-daxa">
             November 21 <span class="text-body">(10:00 - 11:00 AM)</span>
           </span>
         </li>
-        <li class="position-relative">
+        <li class="relative">
           <p>Product Lunch Webinar</p>
           <span class="block text-daxa">
             December 06 <span class="text-body">(02:00 PM)</span>
           </span>
         </li>
-        <li class="position-relative">
+        <li class="relative">
           <p>Tech Summit 2024</p>
           <span class="block text-daxa">
             December 13 <span class="text-body">(03:00 PM)</span>
           </span>
         </li>
-        <!-- <li class="position-relative">
+        <!-- <li class="relative">
                     <p>
                         Web Development Seminar
                     </p>
@@ -67,7 +67,9 @@
         </mat-card-subtitle>
       </mat-card-header>
       <mat-card-content>
-        <label class="main-label block lh-1 text-black"> Event Name </label>
+        <label class="main-label block text-xl font-lighting-none text-black">
+          Event Name
+        </label>
         <mat-form-field>
           <mat-label> Event name </mat-label>
           <input
@@ -75,7 +77,9 @@
             placeholder="E.g. Project Daxa milestone 1 due next week."
           />
         </mat-form-field>
-        <label class="main-label block lh-1 text-black"> Event Date </label>
+        <label class="main-label block text-xl font-lighting-none text-black">
+          Event Date
+        </label>
         <mat-form-field class="date">
           <mat-label> Choose a date </mat-label>
           <input matInput [matDatepicker]="eventDate" />
@@ -85,7 +89,9 @@
           ></mat-datepicker-toggle>
           <mat-datepicker #eventDate></mat-datepicker>
         </mat-form-field>
-        <label class="main-label block lh-1 text-black"> Event Time </label>
+        <label class="main-label block text-xl font-lighting-none text-black">
+          Event Time
+        </label>
         <mat-form-field>
           <mat-label> Event time </mat-label>
           <input matInput placeholder="E.g. 12:00 AM" />

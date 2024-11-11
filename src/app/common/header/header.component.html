@@ -19,18 +19,16 @@
         <span class="middle-bar block bg-black transition"></span>
         <span class="bottom-bar block bg-black transition"></span>
       </div>
-      <form class="search-box position-relative">
+      <form class="search-box relative">
         <i class="material-symbols-outlined"> search </i>
         <input
           type="text"
-          class="input-search block w-100 border-none outline-0"
+          class="input-search block w-full border-none outline-0"
           placeholder="Search here..."
         />
       </form>
     </div>
-    <ul
-      class="header-right-side flex items-center mt-0 mb-0 pl-0 list-unstyled"
-    >
+    <ul class="header-right-side flex items-center mt-0 mb-0 pl-0 list-none">
       <li>
         <button
           mat-icon-button
@@ -50,7 +48,7 @@
             "
           >
             <span class="title font-medium block">Choose Language</span>
-            <ul class="menu-body pl-0 mb-0 mt-0 list-unstyled">
+            <ul class="menu-body pl-0 mb-0 mt-0 list-none">
               <li>
                 <button mat-button>
                   <img src="images/flags/usa.png" alt="flag" />
@@ -117,75 +115,66 @@
             <div class="title flex items-center justify-between">
               <span class="font-medium">
                 Messages
-                <span class="text-body fw-normal">(05)</span>
+                <span class="text-body font-normal">(05)</span>
               </span>
               <a routerLink="/chat" class="link-btn text-daxa">
                 Mark all as read
               </a>
             </div>
-            <ul class="menu-body pl-0 mt-0 list-unstyled">
-              <li class="position-relative">
+            <ul class="menu-body pl-0 mt-0 list-none">
+              <li class="relative">
                 <img
                   src="images/users/user1.jpg"
                   width="44"
                   height="44"
-                  class="rounded-circle position-absolute"
+                  class="rounded-circle absolute"
                   alt="user"
                 />
                 <span class="sub-title block font-medium">
                   Jacob Liwiski
-                  <span class="text-body fw-normal">35 mins ago</span>
+                  <span class="text-body font-normal">35 mins ago</span>
                 </span>
                 <span class="message block text-body">
                   Hey Victor! Could you please...
                 </span>
-                <a
-                  routerLink="/chat"
-                  class="block link-btn position-absolute"
-                ></a>
+                <a routerLink="/chat" class="block link-btn absolute"></a>
                 <span
-                  class="unread .inline-block rounded-circle bg-daxa position-absolute"
+                  class="unread .inline-block rounded-circle bg-daxa absolute"
                 ></span>
               </li>
-              <li class="position-relative">
+              <li class="relative">
                 <img
                   src="images/users/user2.jpg"
                   width="44"
                   height="44"
-                  class="rounded-circle position-absolute"
+                  class="rounded-circle absolute"
                   alt="user"
                 />
                 <span class="sub-title block font-medium">
                   Angela Carter
-                  <span class="text-body fw-normal">1 day ago</span>
+                  <span class="text-body font-normal">1 day ago</span>
                 </span>
                 <span class="message block text-body">
                   How are you Angela? Would you please...
                 </span>
-                <a
-                  routerLink="/chat"
-                  class="block link-btn position-absolute"
-                ></a>
+                <a routerLink="/chat" class="block link-btn absolute"></a>
               </li>
-              <li class="position-relative">
+              <li class="relative">
                 <img
                   src="images/users/user3.jpg"
                   width="44"
                   height="44"
-                  class="rounded-circle position-absolute"
+                  class="rounded-circle absolute"
                   alt="user"
                 />
                 <span class="sub-title block font-medium">
                   Brad Traversy
-                  <span class="text-body fw-normal">2 days ago</span>
+                  <span class="text-body font-normal">2 days ago</span>
                 </span>
                 <span class="message block text-body">
                   Hey Brad Traversy! Could you please...
                 </span>
-                <a
-                  routerLink="/chat"
-                  class="block link-btn position-absolute"
-                ></a>
+                <a routerLink="/chat" class="block link-btn absolute"></a>
               </li>
             </ul>
             <div class="menu-footer text-center">
@@ -221,16 +210,16 @@
             <div class="title flex items-center justify-between">
               <span class="font-medium">
                 Notifications
-                <span class="text-body fw-normal">(03)</span>
+                <span class="text-body font-normal">(03)</span>
               </span>
               <a routerLink="/notifications" class="link-btn text-daxa">
                 Clear All
               </a>
             </div>
-            <ul class="menu-body pl-0 mt-0 list-unstyled">
-              <li class="position-relative">
+            <ul class="menu-body pl-0 mt-0 list-none">
+              <li class="relative">
                 <div
-                  class="icon rounded-circle position-absolute text-center transition"
+                  class="icon rounded-circle absolute text-center transition"
                 >
                   <i class="material-symbols-outlined"> sms </i>
                 </div>
@@ -241,15 +230,15 @@
                 <span class="time block text-body"> 2 hrs ago </span>
                 <a
                   routerLink="/notifications"
-                  class="block link-btn position-absolute"
+                  class="block link-btn absolute"
                 ></a>
                 <span
-                  class="unread .inline-block rounded-circle bg-daxa position-absolute"
+                  class="unread .inline-block rounded-circle bg-daxa absolute"
                 ></span>
               </li>
-              <li class="position-relative">
+              <li class="relative">
                 <div
-                  class="icon rounded-circle position-absolute text-center transition"
+                  class="icon rounded-circle absolute text-center transition"
                 >
                   <i class="material-symbols-outlined"> person </i>
                 </div>
@@ -259,15 +248,15 @@
                 <span class="time block text-body"> 3 hrs ago </span>
                 <a
                   routerLink="/notifications"
-                  class="block link-btn position-absolute"
+                  class="block link-btn absolute"
                 ></a>
                 <span
-                  class="unread .inline-block rounded-circle bg-daxa position-absolute"
+                  class="unread .inline-block rounded-circle bg-daxa absolute"
                 ></span>
               </li>
-              <li class="position-relative">
+              <li class="relative">
                 <div
-                  class="icon rounded-circle position-absolute text-center transition"
+                  class="icon rounded-circle absolute text-center transition"
                 >
                   <i class="material-symbols-outlined"> mark_email_unread </i>
                 </div>
@@ -278,7 +267,7 @@
                 <span class="time block text-body"> 1 day ago </span>
                 <a
                   routerLink="/notifications"
-                  class="block link-btn position-absolute"
+                  class="block link-btn absolute"
                 ></a>
               </li>
             </ul>
@@ -300,9 +289,7 @@
           class="profile-menu-btn"
         >
           <img src="images/admin.png" alt="profile-image" />
-          <span
-            class="status .inline-block rounded-circle position-absolute"
-          ></span>
+          <span class="status .inline-block rounded-circle absolute"></span>
         </button>
         <mat-menu
           class="profile-menu-dropdown"
@@ -323,37 +310,31 @@
                 <span class="designation block text-body"> Admin </span>
               </div>
             </div>
-            <ul class="menu-body pl-0 mb-0 mt-0 list-unstyled">
-              <li class="position-relative transition font-medium">
+            <ul class="menu-body pl-0 mb-0 mt-0 list-none">
+              <li class="relative transition font-medium">
                 <i class="material-symbols-outlined"> person </i>
                 My Profile
-                <a
-                  routerLink="/my-profile"
-                  class="link-btn block position-absolute"
-                ></a>
+                <a routerLink="/my-profile" class="link-btn block absolute"></a>
               </li>
-              <li class="position-relative transition font-medium">
+              <li class="relative transition font-medium">
                 <i class="material-symbols-outlined"> settings </i>
                 Settings
-                <a
-                  routerLink="/settings"
-                  class="link-btn block position-absolute"
-                ></a>
+                <a routerLink="/settings" class="link-btn block absolute"></a>
               </li>
-              <li class="position-relative transition font-medium">
+              <li class="relative transition font-medium">
                 <i class="material-symbols-outlined"> info </i>
                 Support
                 <a
                   routerLink="/settings/connections"
-                  class="link-btn block position-absolute"
+                  class="link-btn block absolute"
                 ></a>
               </li>
-              <li class="position-relative transition font-medium">
+              <li class="relative transition font-medium">
                 <i class="material-symbols-outlined"> logout </i>
                 Logout
                 <a
                   routerLink="/authentication/logout"
-                  class="link-btn block position-absolute"
+                  class="link-btn block absolute"
                 ></a>
               </li>
             </ul>

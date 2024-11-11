@@ -293,7 +293,7 @@
             <td mat-cell *matCellDef="let element">
               <a
                 routerLink="/file-manager"
-                class="folder-name position-relative font-medium"
+                class="folder-name relative font-medium"
               >
                 <i class="material-symbols-outlined"> folder </i>
                 {{ element.folderName }}
@@ -401,7 +401,9 @@
       <mat-card-content>
         <div class="row">
           <div class="col-md-12">
-            <label class="main-label block lh-1 text-black">
+            <label
+              class="main-label block text-xl font-lighting-none text-black"
+            >
               Folder Name
             </label>
             <mat-form-field>
@@ -410,14 +412,22 @@
             </mat-form-field>
           </div>
           <div class="col-md-6">
-            <label class="main-label block lh-1 text-black"> File Items </label>
+            <label
+              class="main-label block text-xl font-lighting-none text-black"
+            >
+              File Items
+            </label>
             <mat-form-field class="date">
               <mat-label> File items </mat-label>
               <input matInput placeholder="E.g. 100" />
             </mat-form-field>
           </div>
           <div class="col-md-6">
-            <label class="main-label block lh-1 text-black"> Owner </label>
+            <label
+              class="main-label block text-xl font-lighting-none text-black"
+            >
+              Owner
+            </label>
             <mat-form-field>
               <mat-label> Select </mat-label>
               <mat-select>

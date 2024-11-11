@@ -4,17 +4,17 @@
 >
   <mat-card-header>
     <mat-card-title>
-      <form class="search-box position-relative">
+      <form class="search-box relative">
         <i class="material-symbols-outlined"> search </i>
         <input
           type="text"
-          class="input-search block w-100 border-none outline-0"
+          class="input-search block w-full border-none outline-0"
           placeholder="Search product..."
           (keyup)="applyFilter($event)"
           #input
         />
       </form>
-      <ul class="info pl-0 mb-0 mt-0 list-unstyled text-body">
+      <ul class="info pl-0 mb-0 mt-0 list-none text-body">
         <li class=".inline-block">
           All Products <span class="text-daxa">(48,753)</span>
         </li>

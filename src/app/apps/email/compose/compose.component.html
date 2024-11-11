@@ -1,16 +1,16 @@
 <!-- Breadcrumb -->
 <div class="breadcrumb-card mb-25 d-md-flex items-center justify-between">
   <h5 class="mb-0">Compose</h5>
-  <ol class="breadcrumb list-unstyled mt-0 mb-0 pl-0">
-    <li class="breadcrumb-item position-relative">
-      <a routerLink="/" class=".inline-block position-relative">
+  <ol class="breadcrumb list-none mt-0 mb-0 pl-0">
+    <li class="breadcrumb-item relative">
+      <a routerLink="/" class=".inline-block relative">
         <i class="ri-home-8-line"></i>
         Dashboard
       </a>
     </li>
-    <li class="breadcrumb-item position-relative">Apps</li>
-    <li class="breadcrumb-item position-relative">Email</li>
-    <li class="breadcrumb-item position-relative">Compose</li>
+    <li class="breadcrumb-item relative">Apps</li>
+    <li class="breadcrumb-item relative">Email</li>
+    <li class="breadcrumb-item relative">Compose</li>
   </ol>
 </div>
 
@@ -69,7 +69,11 @@
           <div class="row">
             <div class="col-md-6">
               <div class="mb-25">
-                <label class="main-label block lh-1 text-black"> To </label>
+                <label
+                  class="main-label block text-xl font-lighting-none text-black"
+                >
+                  To
+                </label>
                 <mat-form-field>
                   <mat-label>To</mat-label>
                   <mat-select [formControl]="emails" multiple>
@@ -84,7 +88,11 @@
             </div>
             <div class="col-md-6">
               <div class="mb-25">
-                <label class="main-label block lh-1 text-black"> Cc </label>
+                <label
+                  class="main-label block text-xl font-lighting-none text-black"
+                >
+                  Cc
+                </label>
                 <mat-form-field>
                   <mat-label>Cc</mat-label>
                   <mat-select [formControl]="emails" multiple>
@@ -99,7 +107,11 @@
             </div>
             <div class="col-md-6">
               <div class="mb-25">
-                <label class="main-label block lh-1 text-black"> Bcc </label>
+                <label
+                  class="main-label block text-xl font-lighting-none text-black"
+                >
+                  Bcc
+                </label>
                 <mat-form-field>
                   <mat-label>Bcc</mat-label>
                   <mat-select [formControl]="emails" multiple>
@@ -114,7 +126,9 @@
             </div>
             <div class="col-md-6">
               <div class="mb-25">
-                <label class="main-label block lh-1 text-black">
+                <label
+                  class="main-label block text-xl font-lighting-none text-black"
+                >
                   Subject
                 </label>
                 <mat-form-field>
@@ -125,7 +139,9 @@
             </div>
             <div class="col-md-12">
               <div class="mb-25">
-                <label class="main-label block lh-1 text-black">
+                <label
+                  class="main-label block text-xl font-lighting-none text-black"
+                >
                   Your Email
                 </label>
                 <div class="NgxEditor__Wrapper">
