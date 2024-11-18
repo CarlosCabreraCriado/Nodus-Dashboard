@@ -1,5 +1,5 @@
 <!-- Breadcrumb -->
-<div class="breadcrumb-card mb-25 md: flex items-center justify-between">
+<div class="breadcrumb-card mb-25 md:flex items-center justify-between">
   <h5 class="mb-0">Products Grid</h5>
   <ol class="breadcrumb list-none mt-0 mb-0 pl-0">
     <li class="breadcrumb-item relative">
@@ -19,7 +19,7 @@
   [class.component-dark-theme]="themeService.isDark()"
   [class.rtl-enabled]="themeService.isRTLEnabled()"
 >
-  <div class="col-md-4 col-lg-3">
+  <div class="col-md-4 lg:flex-grow-0 lg:flex-shrink-0 lg:w-3/12">
     <!-- Filter Sidebar Card -->
     <mat-card
       class="daxa-card filter-sidebar-card mb-25 rounded-xl bg-white border-none block"
@@ -255,10 +255,12 @@
       </mat-card-content>
     </mat-card>
   </div>
-  <div class="col-md-8 col-lg-9">
+  <div class="col-md-8 lg:flex-grow-0 lg:flex-shrink-0 lg:w-3/4">
     <!-- Products -->
     <div class="row">
-      <div class="sm:flex-grow-0 sm:flex-shrink-0 sm:w-1/2 col-lg-4">
+      <div
+        class="sm:flex-grow-0 sm:flex-shrink-0 sm:w-1/2 lg:flex-grow-0 lg:flex-shrink-0 lg:w-4/12"
+      >
         <mat-card
           class="daxa-card product-card text-center mb-25 rounded-xl p-0 bg-white border-none block"
         >
@@ -308,7 +310,9 @@
           </mat-card-content>
         </mat-card>
       </div>
-      <div class="sm:flex-grow-0 sm:flex-shrink-0 sm:w-1/2 col-lg-4">
+      <div
+        class="sm:flex-grow-0 sm:flex-shrink-0 sm:w-1/2 lg:flex-grow-0 lg:flex-shrink-0 lg:w-4/12"
+      >
         <mat-card
           class="daxa-card product-card text-center mb-25 rounded-xl p-0 bg-white border-none block"
         >
@@ -358,7 +362,9 @@
           </mat-card-content>
         </mat-card>
       </div>
-      <div class="sm:flex-grow-0 sm:flex-shrink-0 sm:w-1/2 col-lg-4">
+      <div
+        class="sm:flex-grow-0 sm:flex-shrink-0 sm:w-1/2 lg:flex-grow-0 lg:flex-shrink-0 lg:w-4/12"
+      >
         <mat-card
           class="daxa-card product-card text-center mb-25 rounded-xl p-0 bg-white border-none block"
         >
@@ -408,7 +414,9 @@
           </mat-card-content>
         </mat-card>
       </div>
-      <div class="sm:flex-grow-0 sm:flex-shrink-0 sm:w-1/2 col-lg-4">
+      <div
+        class="sm:flex-grow-0 sm:flex-shrink-0 sm:w-1/2 lg:flex-grow-0 lg:flex-shrink-0 lg:w-4/12"
+      >
         <mat-card
           class="daxa-card product-card text-center mb-25 rounded-xl p-0 bg-white border-none block"
         >
@@ -458,7 +466,9 @@
           </mat-card-content>
         </mat-card>
       </div>
-      <div class="sm:flex-grow-0 sm:flex-shrink-0 sm:w-1/2 col-lg-4">
+      <div
+        class="sm:flex-grow-0 sm:flex-shrink-0 sm:w-1/2 lg:flex-grow-0 lg:flex-shrink-0 lg:w-4/12"
+      >
         <mat-card
           class="daxa-card product-card text-center mb-25 rounded-xl p-0 bg-white border-none block"
         >
@@ -506,7 +516,9 @@
           </mat-card-content>
         </mat-card>
       </div>
-      <div class="sm:flex-grow-0 sm:flex-shrink-0 sm:w-1/2 col-lg-4">
+      <div
+        class="sm:flex-grow-0 sm:flex-shrink-0 sm:w-1/2 lg:flex-grow-0 lg:flex-shrink-0 lg:w-4/12"
+      >
         <mat-card
           class="daxa-card product-card text-center mb-25 rounded-xl p-0 bg-white border-none block"
         >
@@ -556,7 +568,9 @@
           </mat-card-content>
         </mat-card>
       </div>
-      <div class="sm:flex-grow-0 sm:flex-shrink-0 sm:w-1/2 col-lg-4">
+      <div
+        class="sm:flex-grow-0 sm:flex-shrink-0 sm:w-1/2 lg:flex-grow-0 lg:flex-shrink-0 lg:w-4/12"
+      >
         <mat-card
           class="daxa-card product-card text-center mb-25 rounded-xl p-0 bg-white border-none block"
         >
@@ -606,7 +620,9 @@
           </mat-card-content>
         </mat-card>
       </div>
-      <div class="sm:flex-grow-0 sm:flex-shrink-0 sm:w-1/2 col-lg-4">
+      <div
+        class="sm:flex-grow-0 sm:flex-shrink-0 sm:w-1/2 lg:flex-grow-0 lg:flex-shrink-0 lg:w-4/12"
+      >
         <mat-card
           class="daxa-card product-card text-center mb-25 rounded-xl p-0 bg-white border-none block"
         >
@@ -656,7 +672,9 @@
           </mat-card-content>
         </mat-card>
       </div>
-      <div class="sm:flex-grow-0 sm:flex-shrink-0 sm:w-1/2 col-lg-4">
+      <div
+        class="sm:flex-grow-0 sm:flex-shrink-0 sm:w-1/2 lg:flex-grow-0 lg:flex-shrink-0 lg:w-4/12"
+      >
         <mat-card
           class="daxa-card product-card text-center mb-25 rounded-xl p-0 bg-white border-none block"
         >
@@ -709,7 +727,7 @@
     </div>
 
     <!-- Pagination -->
-    <div class="pagination-card mb-25 d-lg-flex items-center justify-between">
+    <div class="pagination-card mb-25 lg:flex items-center justify-between">
       <p class="mb-0">Showing 1 to 9 of 50 entries</p>
       <ol class="pagination list-none mt-0 mb-0 pl-0">
         <li class="pagination-item .inline-block">

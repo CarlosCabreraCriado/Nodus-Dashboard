@@ -281,66 +281,14 @@
     
 
     // Columns
-    .col-md-12 {
-        flex: 0 0 auto;
-        width: 100%;
-    }
-    .col-md-11 {
-        flex: 0 0 auto;
-        width: 91.66666667%;
-    }
-    .col-md-10 {
-        flex: 0 0 auto;
-        width: 83.33333333%;
-    }
-    .col-md-9 {
-        flex: 0 0 auto;
-        width: 75%;
-    }
-    .col-md-8 {
-        flex: 0 0 auto;
-        width: 66.66666667%;
-    }
-    .col-md-7 {
-        flex: 0 0 auto;
-        width: 58.33333333%;
-    }
-    .col-md-6 {
-        flex: 0 0 auto;
-        width: 50%;
-    }
-    .col-md-5 {
-        flex: 0 0 auto;
-        width: 41.66666667%;
-    }
-    .col-md-4 {
-        flex: 0 0 auto;
-        width: 33.33333333%;
-    }
-    .col-md-3 {
-        flex: 0 0 auto;
-        width: 25%;
-    }
-    .col-md-2\/5 {
-        flex: 0 0 auto;
-        width: 20%;
-    }
-    .col-md-2 {
-        flex: 0 0 auto;
-        width: 16.66666667%;
-    }
-    .col-md-1 {
-        flex: 0 0 auto;
-        width: 8.33333333%;
-    }
-    .p-md-25 {
-        padding: 25px !important;
-    }
+   
+   
+    
+   
+
 
     // Height
-    .h-100vh {
-        height: 100vh !important;
-    }
+   
 
     // Order
     .order-md-1 {
@@ -386,90 +334,12 @@
 @media (min-width: 992px) {
 
     // Display
-    .d-lg-flex {
-        display: flex !important;
-    }
-    .d-lg-none {
-        display: none !important;
-    }
-    .d-lg-inline {
-        display: inline !important;
-    }
-    .d-lg-inline-block {
-        display: inline-block !important;
-    }
-    .d-lg-block {
-        display: block !important;
-    }
-    .d-lg-grid {
-        display: grid !important;
-    }
-    .d-lg-table {
-        display: table !important;
-    }
-    .d-lg-table-cell {
-        display: table-cell !important;
-    }
-    .d-lg-table-row {
-        display: table-row !important;
-    }
-    .d-lg-inline-flex {
-        display: inline-flex !important;
-    }
+
 
     // Columns
-    .col-lg-12 {
-        flex: 0 0 auto;
-        width: 100%;
-    }
-    .col-lg-11 {
-        flex: 0 0 auto;
-        width: 91.66666667%;
-    }
-    .col-lg-10 {
-        flex: 0 0 auto;
-        width: 83.33333333%;
-    }
-    .col-lg-9 {
-        flex: 0 0 auto;
-        width: 75%;
-    }
-    .col-lg-8 {
-        flex: 0 0 auto;
-        width: 66.66666667%;
-    }
-    .col-lg-7 {
-        flex: 0 0 auto;
-        width: 58.33333333%;
-    }
-    .col-lg-6 {
-        flex: 0 0 auto;
-        width: 50%;
-    }
-    .col-lg-5 {
-        flex: 0 0 auto;
-        width: 41.66666667%;
-    }
-    .col-lg-4 {
-        flex: 0 0 auto;
-        width: 33.33333333%;
-    }
-    .col-lg-3 {
-        flex: 0 0 auto;
-        width: 25%;
-    }
-    .col-lg-2\/5 {
-        flex: 0 0 auto;
-        width: 20%;
-    }
-    .col-lg-2 {
-        flex: 0 0 auto;
-        width: 16.66666667%;
-    }
-    .col-lg-1 {
-        flex: 0 0 auto;
-        width: 8.33333333%;
-    }
+   
+  
+ 
 
     // Order
     .order-lg-1 {
