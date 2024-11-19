@@ -19,7 +19,10 @@
   [class.component-dark-theme]="themeService.isDark()"
   [class.rtl-enabled]="themeService.isRTLEnabled()"
 >
-  <div class="col-md-6 col-xxl-4 col-xxxl-3" *ngFor="let content of clientCard">
+  <div
+    class="col-md-6 2xl:flex-grow-0 2xl:flex-shrink-0 2xl:w-4/12 3xl:flex-grow-0 3xl:flex-shrink-0 3xl:w-3/12"
+    *ngFor="let content of clientCard"
+  >
     <div class="client-card">
       <mat-card
         class="daxa-card client-card mb-25 rounded-xl bg-white border-none block"

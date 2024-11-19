@@ -15,7 +15,7 @@
 
 <!-- Profile -->
 <div class="row">
-  <div class="col-xxxl-9 col-md-12">
+  <div class="3xl:flex-grow-0 3xl:flex-shrink-0 3xl:w-9/12 col-md-12">
     <mat-card
       class="daxa-card profile-card mb-25 p-0 rounded-xl bg-white border-none block"
       [class.component-dark-theme]="themeService.isDark()"
@@ -287,9 +287,11 @@
       </div>
     </div>
   </div>
-  <div class="col-xxxl-3 col-md-12">
+  <div class="3xl:flex-grow-0 3xl:flex-shrink-0 3xl:w-3/12 col-md-12">
     <div class="row">
-      <div class="lg:flex-grow-0 lg:flex-shrink-0 lg:w-1/2 col-xxxl-12">
+      <div
+        class="lg:flex-grow-0 lg:flex-shrink-0 lg:w-1/2 3xl:flex-grow-0 3xl:flex-shrink-0 3xl:w-full"
+      >
         <mat-card
           class="daxa-card profile-intro-card mb-25 rounded-xl bg-white border-none block"
           [class.rtl-enabled]="themeService.isRTLEnabled()"
@@ -353,7 +355,9 @@
           </mat-card-content>
         </mat-card>
       </div>
-      <div class="lg:flex-grow-0 lg:flex-shrink-0 lg:w-1/2 col-xxxl-12">
+      <div
+        class="lg:flex-grow-0 lg:flex-shrink-0 lg:w-1/2 3xl:flex-grow-0 3xl:flex-shrink-0 3xl:w-full"
+      >
         <mat-card
           class="daxa-card followers-card mb-25 rounded-xl bg-white border-none block"
           [class.rtl-enabled]="themeService.isRTLEnabled()"
@@ -457,7 +461,9 @@
           </mat-card-content>
         </mat-card>
       </div>
-      <div class="lg:flex-grow-0 lg:flex-shrink-0 lg:w-1/2 col-xxxl-12">
+      <div
+        class="lg:flex-grow-0 lg:flex-shrink-0 lg:w-1/2 3xl:flex-grow-0 3xl:flex-shrink-0 3xl:w-full"
+      >
         <mat-card
           class="daxa-card followers-card mb-25 rounded-xl bg-white border-none block"
           [class.rtl-enabled]="themeService.isRTLEnabled()"
@@ -561,7 +567,9 @@
           </mat-card-content>
         </mat-card>
       </div>
-      <div class="lg:flex-grow-0 lg:flex-shrink-0 lg:w-1/2 col-xxxl-12">
+      <div
+        class="lg:flex-grow-0 lg:flex-shrink-0 lg:w-1/2 3xl:flex-grow-0 3xl:flex-shrink-0 3xl:w-full"
+      >
         <mat-card
           class="daxa-card photos-card mb-25 rounded-xl bg-white border-none block"
           [class.rtl-enabled]="themeService.isRTLEnabled()"

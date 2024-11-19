@@ -15,7 +15,7 @@
 
 <!-- Calendar -->
 <div class="row">
-  <div class="col-xxxl-8">
+  <div class="3xl:flex-grow-0 3xl:flex-shrink-0 3xl:w-8/12">
     <mat-card
       class="daxa-card calendar-card mb-25 rounded-xl bg-white border-none block"
       [class.component-dark-theme]="themeService.isDark()"
@@ -26,7 +26,9 @@
       </mat-card-content>
     </mat-card>
   </div>
-  <div class="lg:flex-grow-0 lg:flex-shrink-0 lg:w-5/12 col-xxxl-4">
+  <div
+    class="lg:flex-grow-0 lg:flex-shrink-0 lg:w-5/12 3xl:flex-grow-0 3xl:flex-shrink-0 3xl:w-4/12"
+  >
     <app-working-schedule />
   </div>
 </div>
